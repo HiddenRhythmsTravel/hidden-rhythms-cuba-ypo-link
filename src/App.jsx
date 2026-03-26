@@ -75,7 +75,7 @@ function App() {
           </p>
         </section>
 
-        <Slideshow items={slideshowItems} />
+        <Slideshow items={slideshowItems} onMediaClick={setActiveMedia} />
         
         <div style={{ textAlign: 'center', marginBottom: '3rem', marginTop: '2rem' }} className="fade-in">
           <h3 style={{ fontSize: '2.5rem', fontFamily: 'var(--font-serif)', color: 'var(--text-heading)', marginBottom: '0.5rem' }}>

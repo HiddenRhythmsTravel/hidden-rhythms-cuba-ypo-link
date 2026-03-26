@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 
-export default function Slideshow({ items }) {
+export default function Slideshow({ items, onMediaClick }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
     if (!items || items.length === 0) return;
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % items.length);
-    }, 5000); 
+    }, 750); 
     return () => clearInterval(interval);
   }, [items]);
 
@@ -37,21 +37,27 @@ export default function Slideshow({ items }) {
         flex: '1 1 500px', position: 'relative', width: '100%',
         aspectRatio: '16/9', borderRadius: '12px', overflow: 'hidden',
         boxShadow: '0 20px 40px -10px rgba(0,0,0,0.6)', backgroundColor: 'var(--surface)',
-        transform: 'translateZ(0)'
-      }}>
+        transform: 'translateZ(0)',
+        cursor: 'pointer'
+      }}
+      onClick={() => {
+        if (items[currentIndex]) onMediaClick(items[currentIndex]);
+      }}
+      >
         {items.map((item, index) => (
           <div 
             key={index}
             style={{
               position: 'absolute', inset: 0,
               opacity: index === currentIndex ? 1 : 0,
-              transition: 'opacity 1s ease-in-out',
-              pointerEvents: index === currentIndex ? 'auto' : 'none'
+              transition: 'opacity 0.2s ease-in-out',
+              pointerEvents: 'none'
             }}
           >
             <img 
               src={item.src} 
               alt={`YPO Cuba 2019 - Slide ${index + 1}`}
+              loading={index > 5 ? "lazy" : "eager"}
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
           </div>
