@@ -20,7 +20,7 @@ export const mediaItems = [
   {
     "type": "video",
     "src": "/media/Colombiaphotos_6.mp4",
-    "title": "Fenix Beach Cinematic Feature",
+    "title": "Fenix Beach, Cartagena - Private Event",
     "location": "Colombia",
     "date": "2024",
     "eventName": "Colombia Experience"
@@ -28,7 +28,7 @@ export const mediaItems = [
   {
     "type": "video",
     "src": "/media/Colombiaphotos_26.mp4",
-    "title": "Fenix Beach Cinematic Feature",
+    "title": "Fenix Beach, Cartagena - Private Event",
     "location": "Colombia",
     "date": "2024",
     "eventName": "Colombia Experience"
