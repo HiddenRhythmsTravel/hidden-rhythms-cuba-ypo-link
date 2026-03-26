@@ -18,9 +18,25 @@ export const mediaItems = [
     "eventName": ""
   },
   {
+    "type": "video",
+    "src": "/media/Colombiaphotos_6.mp4",
+    "title": "Fenix Beach Cinematic Feature",
+    "location": "Colombia",
+    "date": "2024",
+    "eventName": "Colombia Experience"
+  },
+  {
+    "type": "video",
+    "src": "/media/Colombiaphotos_26.mp4",
+    "title": "Fenix Beach Cinematic Feature",
+    "location": "Colombia",
+    "date": "2024",
+    "eventName": "Colombia Experience"
+  },
+  {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_0.jpg",
-    "title": "140",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -28,7 +44,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_1.jpg",
-    "title": "139",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -36,7 +52,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_3.jpg",
-    "title": "HavanaH _",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -44,7 +60,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_4.jpg",
-    "title": "03 Lunes _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -52,23 +68,15 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/Colombiaphotos_5.jpg",
-    "title": ".02-Colombia-Capa-2",
+    "title": "Immersive Colombia Experience",
     "location": "Colombia",
     "date": "2020",
     "eventName": "Colombia Experience"
   },
   {
-    "type": "video",
-    "src": "/media/Colombiaphotos_6.mp4",
-    "title": "Afro Colombian Band - Beach Party",
-    "location": "Colombia",
-    "date": "2024",
-    "eventName": "Colombia Experience"
-  },
-  {
     "type": "image",
     "src": "/media/Colombiaphotos_7.jpg",
-    "title": "colombia-main-comuna-13",
+    "title": "Immersive Colombia Experience",
     "location": "Medellín",
     "date": "2024",
     "eventName": "Colombia Experience"
@@ -76,7 +84,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_8.jpg",
-    "title": "EDDO6241",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -84,7 +92,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_9.jpg",
-    "title": "Tropical Crowd",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -92,7 +100,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_10.jpg",
-    "title": "EdAranz_DSC3953",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -100,7 +108,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_11.jpg",
-    "title": "MCW_8329",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -108,7 +116,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_12.jpg",
-    "title": "144",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -116,7 +124,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_13.jpg",
-    "title": "02 Domingo _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -124,7 +132,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/AUAGala_14.jpg",
-    "title": "yarini_32A4697",
+    "title": "VIP Gala Reception",
     "location": "Havana",
     "date": "2017",
     "eventName": "AUA Gala"
@@ -132,7 +140,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_15.jpg",
-    "title": "03 Lunes _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -140,7 +148,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_16.jpg",
-    "title": "02 Domingo _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -148,7 +156,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_17.jpg",
-    "title": "151",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -156,7 +164,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_18.jpg",
-    "title": "EdAranz_DSC7709",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -164,7 +172,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/AUAGala_19.jpg",
-    "title": "3P7A9508 copia",
+    "title": "VIP Gala Reception",
     "location": "Havana",
     "date": "2017",
     "eventName": "AUA Gala"
@@ -172,7 +180,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_21.jpg",
-    "title": "02 Domingo _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -180,7 +188,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_22.jpg",
-    "title": "02 Domingo _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -188,7 +196,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_23.jpg",
-    "title": "145",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -196,7 +204,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_24.jpg",
-    "title": "04 Martes _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -204,23 +212,15 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/GettingFunky_25.jpg",
-    "title": "wampi_32A4017",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
   },
   {
-    "type": "video",
-    "src": "/media/Colombiaphotos_26.mp4",
-    "title": "Fenix Beach - Video - Night Party",
-    "location": "Colombia",
-    "date": "2024",
-    "eventName": "Colombia Experience"
-  },
-  {
     "type": "image",
     "src": "/media/GettingFunky_27.jpg",
-    "title": "Troy Concert BW",
+    "title": "Super Jam Production",
     "location": "Havana",
     "date": "2019",
     "eventName": "Getting Funky"
@@ -228,7 +228,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/Colombiaphotos_28.jpg",
-    "title": "PHOTO--06-18-13-35-28",
+    "title": "Immersive Colombia Experience",
     "location": "Colombia",
     "date": "2025",
     "eventName": "Colombia Experience"
@@ -236,7 +236,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_29.jpg",
-    "title": "136",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -244,7 +244,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/Colombiaphotos_30.jpg",
-    "title": "PHOTO--06-17-14-05-57",
+    "title": "Immersive Colombia Experience",
     "location": "Colombia",
     "date": "2025",
     "eventName": "Colombia Experience"
@@ -252,7 +252,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/IGHappyBirthdayKevin_31.jpg",
-    "title": "04 Martes _",
+    "title": "Exclusive Client Engagement",
     "location": "Havana",
     "date": "2023",
     "eventName": "Private Client Retreat"
@@ -260,7 +260,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_32.jpg",
-    "title": "137",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -268,7 +268,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/NetflixPhotosCuba2016_33.jpg",
-    "title": "148",
+    "title": "Netflix Executive Showcase",
     "location": "Havana",
     "date": "2016",
     "eventName": "Netflix Retreat"
@@ -276,7 +276,7 @@ export const mediaItems = [
   {
     "type": "video",
     "src": "/media/AUAGala_34.mp4",
-    "title": "Gala Night CET",
+    "title": "VIP Gala Reception",
     "location": "Havana",
     "date": "2017",
     "eventName": "AUA Gala"
@@ -284,7 +284,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/AUAGala_35.jpg",
-    "title": "3P7A9607 copia",
+    "title": "VIP Gala Reception",
     "location": "Havana",
     "date": "2017",
     "eventName": "AUA Gala"
@@ -292,7 +292,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/AUAGala_36.jpg",
-    "title": "3P7A9450 copia",
+    "title": "VIP Gala Reception",
     "location": "Havana",
     "date": "2017",
     "eventName": "AUA Gala"
@@ -300,7 +300,7 @@ export const mediaItems = [
   {
     "type": "image",
     "src": "/media/AUAGala_37.jpg",
-    "title": "3P7A9631 copia",
+    "title": "VIP Gala Reception",
     "location": "Havana",
     "date": "2017",
     "eventName": "AUA Gala"
