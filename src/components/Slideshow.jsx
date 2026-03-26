@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
-export default function Slideshow({ items, onMediaClick }) {
+export default function Slideshow({ data, onMediaClick, reverse }) {
+  const { index, title, description, items } = data;
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -21,19 +22,20 @@ export default function Slideshow({ items, onMediaClick }) {
       display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '3rem'
     }}>
       
-      <div style={{ flex: '1 1 300px' }}>
+      <div style={{ flex: '1 1 300px', order: reverse ? 2 : 1 }}>
         <h4 style={{ fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.1em', color: 'rgba(255,255,255,0.5)', marginBottom: '0.5rem' }}>
-          Highlight Showcase
+          {index} / 06 — Gallery Highlight
         </h4>
         <h3 style={{ fontSize: '2.2rem', fontFamily: 'var(--font-serif)', color: 'var(--accent)', marginBottom: '1rem', lineHeight: 1.1 }}>
-          YPO Conference <br/> Cuba 2019
+          {title}
         </h3>
-        <p style={{ opacity: 0.85, fontSize: '1.05rem', lineHeight: 1.6, marginBottom: '0' }}>
-          A dedicated retrospect of our landmark Havana assembly. This collection demonstrates the intricate production, immersive design, and seamless execution we bring to every exclusive destination.
+        <p style={{ opacity: 0.85, fontSize: '1.05rem', lineHeight: 1.6, marginBottom: '0', whiteSpace: 'pre-line' }}>
+          {description}
         </p>
       </div>
 
       <div style={{
+        order: reverse ? 1 : 2,
         flex: '1 1 500px', position: 'relative', width: '100%',
         aspectRatio: '16/9', borderRadius: '12px', overflow: 'hidden',
         boxShadow: '0 20px 40px -10px rgba(0,0,0,0.6)', backgroundColor: 'var(--surface)',

@@ -3,8 +3,7 @@ import Header from './components/Header';
 import GalleryGrid from './components/GalleryGrid';
 import Lightbox from './components/Lightbox';
 import Slideshow from './components/Slideshow';
-import { mediaItems } from './mediaList';
-import { slideshowItems } from './slideshowList';
+import { sixModulesData } from './sixModulesData';
 
 function App() {
   const [activeMedia, setActiveMedia] = useState(null);
@@ -68,26 +67,21 @@ function App() {
       </button>
 
       <main className="fade-in" style={{ animationDelay: '0.2s', padding: '4rem 1rem' }}>
-        <section style={{ textAlign: 'center', marginBottom: '4rem', maxWidth: '800px', margin: '0 auto 4rem' }}>
+        <section style={{ textAlign: 'center', marginBottom: '6rem', maxWidth: '800px', margin: '0 auto 6rem' }}>
           <h2 style={{ fontSize: '3.5rem', fontFamily: 'var(--font-serif)', marginBottom: '1rem', lineHeight: '1.1' }}>Hidden Rhythm Events</h2>
           <p style={{ fontSize: '1.25rem', opacity: 0.8, letterSpacing: '0.02em' }}>
-            View a Collection of some of our Favorite Moments
+            A Master Collection of Global Production Highlights
           </p>
         </section>
 
-        <Slideshow items={slideshowItems} onMediaClick={setActiveMedia} />
-        
-        <div style={{ textAlign: 'center', marginBottom: '3rem', marginTop: '2rem' }} className="fade-in">
-          <h3 style={{ fontSize: '2.5rem', fontFamily: 'var(--font-serif)', color: 'var(--text-heading)', marginBottom: '0.5rem' }}>
-            Highlights from Other Events
-          </h3>
-          <div style={{ width: '60px', height: '2px', backgroundColor: 'var(--accent)', margin: '0 auto 1rem', opacity: 0.7 }}></div>
-          <p style={{ opacity: 0.8, fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-            Explore a curated selection of incredible journeys and authentic encounters from our past productions.
-          </p>
-        </div>
-
-        <GalleryGrid items={mediaItems} onMediaClick={setActiveMedia} />
+        {sixModulesData.map((module, idx) => (
+          <Slideshow 
+            key={module.id} 
+            data={module} 
+            onMediaClick={setActiveMedia} 
+            reverse={idx % 2 !== 0} 
+          />
+        ))}
       </main>
 
       {activeMedia && (
