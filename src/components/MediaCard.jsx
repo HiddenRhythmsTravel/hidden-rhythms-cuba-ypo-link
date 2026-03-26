@@ -47,21 +47,9 @@ export default function MediaCard({ item, onClick }) {
       </div>
       
       <div className="content-container">
-        {(item.location || item.date) && (
-          <span className="meta-tag">
-            {item.location}{item.location && item.date ? ' • ' : ''}{item.date}
-          </span>
-        )}
-        
         <h3 className="title">
-          {item.title}
+          {item.title}{item.location ? `, ${item.location}` : ''}{item.date ? `, ${item.date}` : ''}
         </h3>
-        
-        {item.eventName && (
-          <p className="event-name">
-            {item.eventName}
-          </p>
-        )}
       </div>
     </div>
   );

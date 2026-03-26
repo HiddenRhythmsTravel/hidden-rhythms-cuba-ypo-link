@@ -60,7 +60,9 @@ export default function Lightbox({ item, onClose }) {
           />
         )}
         <div style={{ marginTop: '1rem', textAlign: 'center' }}>
-          <h3 className="text-accent" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.25rem', margin: 0, color: 'var(--accent)' }}>{item.title}</h3>
+          <h3 className="text-accent" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.25rem', margin: 0, color: 'var(--accent)' }}>
+            {item.title}{item.location ? `, ${item.location}` : ''}{item.date ? `, ${item.date}` : ''}
+          </h3>
         </div>
       </div>
     </div>
