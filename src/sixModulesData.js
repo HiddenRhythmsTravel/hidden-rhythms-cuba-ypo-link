@@ -248,17 +248,17 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_0.jpeg",
+        "src": "/modules_clean/box3/box3_img_0.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_1.jpeg",
+        "src": "/modules_clean/box3/box3_img_1.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
-        "type": "video",
-        "src": "/modules_clean/box3/box3_img_2.mov",
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_2.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -273,7 +273,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_5.jpg",
+        "src": "/modules_clean/box3/box3_img_5.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -283,17 +283,17 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_7.jpg",
+        "src": "/modules_clean/box3/box3_img_7.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_8.jpg",
+        "src": "/modules_clean/box3/box3_img_8.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
-        "type": "image",
-        "src": "/modules_clean/box3/box3_img_9.jpeg",
+        "type": "video",
+        "src": "/modules_clean/box3/box3_img_9.mov",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -303,12 +303,22 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_11.jpeg",
+        "src": "/modules_clean/box3/box3_img_11.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
         "src": "/modules_clean/box3/box3_img_12.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_13.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_14.jpg",
         "title": "Medellin Funk Expedition, 2025"
       }
     ]
@@ -637,12 +647,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_5.jpg",
+        "src": "/modules_clean/box6/box6_img_5.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
-        "type": "image",
-        "src": "/modules_clean/box6/box6_img_6.jpg",
+        "type": "video",
+        "src": "/modules_clean/box6/box6_img_6.mov",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -657,7 +667,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_9.jpeg",
+        "src": "/modules_clean/box6/box6_img_9.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -667,17 +677,17 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_11.jpeg",
+        "src": "/modules_clean/box6/box6_img_11.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_12.jpg",
+        "src": "/modules_clean/box6/box6_img_12.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_13.jpeg",
+        "src": "/modules_clean/box6/box6_img_13.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -702,7 +712,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_18.jpg",
+        "src": "/modules_clean/box6/box6_img_18.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {

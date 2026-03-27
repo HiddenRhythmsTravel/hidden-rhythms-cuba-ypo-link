@@ -67,10 +67,6 @@ const boxData = [
     id: "box2",
     folderMatching: "2. Jetsetting Private Client Event",
     max: 20,
-    subfolders: [
-      { name: "Cimafunk Tribridge", max: 3 },
-      { name: "IG - Happy Birthday Kevin", max: 17 }
-    ],
     title: "Jet-setting Private Client Event, 2019",
     description: "An incredibly bespoke, highly-curated luxury immersion tailored explicitly for jet-setting private clients. Features premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the tropical destination."
   },
