@@ -7,202 +7,202 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_0.jpg",
+        "src": "/modules_v5/box1/box1_img_0.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_1.jpg",
+        "src": "/modules_v5/box1/box1_img_1.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_2.jpg",
+        "src": "/modules_v5/box1/box1_img_2.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_3.jpg",
+        "src": "/modules_v5/box1/box1_img_3.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_4.jpg",
+        "src": "/modules_v5/box1/box1_img_4.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_5.jpg",
+        "src": "/modules_v5/box1/box1_img_5.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_6.jpg",
+        "src": "/modules_v5/box1/box1_img_6.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_7.jpg",
+        "src": "/modules_v5/box1/box1_img_7.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_8.jpg",
+        "src": "/modules_v5/box1/box1_img_8.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_9.jpg",
+        "src": "/modules_v5/box1/box1_img_9.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_10.jpg",
+        "src": "/modules_v5/box1/box1_img_10.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_11.jpg",
+        "src": "/modules_v5/box1/box1_img_11.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_12.jpg",
+        "src": "/modules_v5/box1/box1_img_12.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_13.jpg",
+        "src": "/modules_v5/box1/box1_img_13.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_14.jpg",
+        "src": "/modules_v5/box1/box1_img_14.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_15.jpg",
+        "src": "/modules_v5/box1/box1_img_15.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_16.jpg",
+        "src": "/modules_v5/box1/box1_img_16.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_17.jpg",
+        "src": "/modules_v5/box1/box1_img_17.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_18.jpg",
+        "src": "/modules_v5/box1/box1_img_18.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_19.jpg",
+        "src": "/modules_v5/box1/box1_img_19.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_20.jpg",
+        "src": "/modules_v5/box1/box1_img_20.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_21.jpg",
+        "src": "/modules_v5/box1/box1_img_21.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_22.jpg",
+        "src": "/modules_v5/box1/box1_img_22.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_23.jpg",
+        "src": "/modules_v5/box1/box1_img_23.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_24.jpg",
+        "src": "/modules_v5/box1/box1_img_24.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_25.jpg",
+        "src": "/modules_v5/box1/box1_img_25.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_26.jpg",
+        "src": "/modules_v5/box1/box1_img_26.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_27.jpg",
+        "src": "/modules_v5/box1/box1_img_27.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_28.jpg",
+        "src": "/modules_v5/box1/box1_img_28.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_29.jpg",
+        "src": "/modules_v5/box1/box1_img_29.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_30.jpg",
+        "src": "/modules_v5/box1/box1_img_30.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_31.jpg",
+        "src": "/modules_v5/box1/box1_img_31.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_32.jpg",
+        "src": "/modules_v5/box1/box1_img_32.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_33.jpg",
+        "src": "/modules_v5/box1/box1_img_33.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_34.jpg",
+        "src": "/modules_v5/box1/box1_img_34.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_35.jpg",
+        "src": "/modules_v5/box1/box1_img_35.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_36.jpg",
+        "src": "/modules_v5/box1/box1_img_36.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_37.jpg",
+        "src": "/modules_v5/box1/box1_img_37.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_38.jpg",
+        "src": "/modules_v5/box1/box1_img_38.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box1/box1_img_39.jpg",
+        "src": "/modules_v5/box1/box1_img_39.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       }
     ]
@@ -215,87 +215,92 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_0.jpg",
+        "src": "/modules_v5/box2/box2_img_0.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_1.jpg",
+        "src": "/modules_v5/box2/box2_img_1.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_2.jpg",
+        "src": "/modules_v5/box2/box2_img_2.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_3.jpg",
+        "src": "/modules_v5/box2/box2_img_3.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_4.jpg",
+        "src": "/modules_v5/box2/box2_img_4.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_5.jpg",
+        "src": "/modules_v5/box2/box2_img_5.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_6.jpg",
+        "src": "/modules_v5/box2/box2_img_6.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_7.jpg",
+        "src": "/modules_v5/box2/box2_img_7.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_8.jpg",
+        "src": "/modules_v5/box2/box2_img_8.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_9.jpg",
+        "src": "/modules_v5/box2/box2_img_9.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_10.jpg",
+        "src": "/modules_v5/box2/box2_img_10.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_11.jpg",
+        "src": "/modules_v5/box2/box2_img_11.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_12.jpg",
+        "src": "/modules_v5/box2/box2_img_12.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_13.jpg",
+        "src": "/modules_v5/box2/box2_img_13.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_14.jpg",
+        "src": "/modules_v5/box2/box2_img_14.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_15.jpg",
+        "src": "/modules_v5/box2/box2_img_15.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box2/box2_img_16.jpg",
+        "src": "/modules_v5/box2/box2_img_16.jpg",
+        "title": "Tech Entrepreneur Birthday Party, 2022"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box2/box2_img_17.jpg",
         "title": "Tech Entrepreneur Birthday Party, 2022"
       }
     ]
@@ -308,97 +313,97 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_0.jpg",
+        "src": "/modules_v5/box3/box3_img_0.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_1.jpg",
+        "src": "/modules_v5/box3/box3_img_1.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_2.jpg",
+        "src": "/modules_v5/box3/box3_img_2.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_3.jpg",
+        "src": "/modules_v5/box3/box3_img_3.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_4.jpg",
+        "src": "/modules_v5/box3/box3_img_4.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_5.jpg",
+        "src": "/modules_v5/box3/box3_img_5.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_6.jpg",
+        "src": "/modules_v5/box3/box3_img_6.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_7.jpg",
+        "src": "/modules_v5/box3/box3_img_7.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "video",
-        "src": "/modules_v4/box3/box3_img_8.mp4",
+        "src": "/modules_v5/box3/box3_img_8.mp4",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_9.jpg",
+        "src": "/modules_v5/box3/box3_img_9.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_10.jpg",
+        "src": "/modules_v5/box3/box3_img_10.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_11.jpg",
+        "src": "/modules_v5/box3/box3_img_11.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "video",
-        "src": "/modules_v4/box3/box3_img_12.mp4",
+        "src": "/modules_v5/box3/box3_img_12.mp4",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_13.jpg",
+        "src": "/modules_v5/box3/box3_img_13.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_14.jpg",
+        "src": "/modules_v5/box3/box3_img_14.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_15.jpg",
+        "src": "/modules_v5/box3/box3_img_15.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_16.jpg",
+        "src": "/modules_v5/box3/box3_img_16.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_17.jpg",
+        "src": "/modules_v5/box3/box3_img_17.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box3/box3_img_18.jpg",
+        "src": "/modules_v5/box3/box3_img_18.jpg",
         "title": "Medellin Funk Expedition, 2025"
       }
     ]
@@ -411,82 +416,82 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_0.jpg",
+        "src": "/modules_v5/box4/box4_img_0.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_1.jpg",
+        "src": "/modules_v5/box4/box4_img_1.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_2.jpg",
+        "src": "/modules_v5/box4/box4_img_2.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_3.jpg",
+        "src": "/modules_v5/box4/box4_img_3.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_4.jpg",
+        "src": "/modules_v5/box4/box4_img_4.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_5.jpg",
+        "src": "/modules_v5/box4/box4_img_5.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_6.jpg",
+        "src": "/modules_v5/box4/box4_img_6.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_7.jpg",
+        "src": "/modules_v5/box4/box4_img_7.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_8.jpg",
+        "src": "/modules_v5/box4/box4_img_8.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_9.jpg",
+        "src": "/modules_v5/box4/box4_img_9.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_10.jpg",
+        "src": "/modules_v5/box4/box4_img_10.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_11.jpg",
+        "src": "/modules_v5/box4/box4_img_11.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_12.jpg",
+        "src": "/modules_v5/box4/box4_img_12.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_13.jpg",
+        "src": "/modules_v5/box4/box4_img_13.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_14.jpg",
+        "src": "/modules_v5/box4/box4_img_14.jpg",
         "title": "The Dallas Assembly Event, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box4/box4_img_15.jpg",
+        "src": "/modules_v5/box4/box4_img_15.jpg",
         "title": "The Dallas Assembly Event, 2025"
       }
     ]
@@ -499,207 +504,207 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_0.jpg",
+        "src": "/modules_v5/box5/box5_img_0.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_1.jpg",
+        "src": "/modules_v5/box5/box5_img_1.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_2.jpg",
+        "src": "/modules_v5/box5/box5_img_2.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_3.jpg",
+        "src": "/modules_v5/box5/box5_img_3.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_4.jpg",
+        "src": "/modules_v5/box5/box5_img_4.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_5.jpg",
+        "src": "/modules_v5/box5/box5_img_5.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_6.jpg",
+        "src": "/modules_v5/box5/box5_img_6.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_7.jpg",
+        "src": "/modules_v5/box5/box5_img_7.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_8.jpg",
+        "src": "/modules_v5/box5/box5_img_8.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_9.jpg",
+        "src": "/modules_v5/box5/box5_img_9.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_10.jpg",
+        "src": "/modules_v5/box5/box5_img_10.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_11.jpg",
+        "src": "/modules_v5/box5/box5_img_11.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_12.jpg",
+        "src": "/modules_v5/box5/box5_img_12.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_13.jpg",
+        "src": "/modules_v5/box5/box5_img_13.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_14.jpg",
+        "src": "/modules_v5/box5/box5_img_14.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_15.jpg",
+        "src": "/modules_v5/box5/box5_img_15.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_16.jpg",
+        "src": "/modules_v5/box5/box5_img_16.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_17.jpg",
+        "src": "/modules_v5/box5/box5_img_17.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_18.jpg",
+        "src": "/modules_v5/box5/box5_img_18.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_19.jpg",
+        "src": "/modules_v5/box5/box5_img_19.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_20.jpg",
+        "src": "/modules_v5/box5/box5_img_20.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_21.jpg",
+        "src": "/modules_v5/box5/box5_img_21.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_22.jpg",
+        "src": "/modules_v5/box5/box5_img_22.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_23.jpg",
+        "src": "/modules_v5/box5/box5_img_23.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_24.jpg",
+        "src": "/modules_v5/box5/box5_img_24.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_25.jpg",
+        "src": "/modules_v5/box5/box5_img_25.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_26.jpg",
+        "src": "/modules_v5/box5/box5_img_26.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_27.jpg",
+        "src": "/modules_v5/box5/box5_img_27.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_28.jpg",
+        "src": "/modules_v5/box5/box5_img_28.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_29.jpg",
+        "src": "/modules_v5/box5/box5_img_29.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_30.jpg",
+        "src": "/modules_v5/box5/box5_img_30.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_31.jpg",
+        "src": "/modules_v5/box5/box5_img_31.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_32.jpg",
+        "src": "/modules_v5/box5/box5_img_32.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_33.jpg",
+        "src": "/modules_v5/box5/box5_img_33.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_34.jpg",
+        "src": "/modules_v5/box5/box5_img_34.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_35.jpg",
+        "src": "/modules_v5/box5/box5_img_35.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_36.jpg",
+        "src": "/modules_v5/box5/box5_img_36.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_37.jpg",
+        "src": "/modules_v5/box5/box5_img_37.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_38.jpg",
+        "src": "/modules_v5/box5/box5_img_38.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_39.jpg",
+        "src": "/modules_v5/box5/box5_img_39.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box5/box5_img_40.jpg",
+        "src": "/modules_v5/box5/box5_img_40.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
       }
     ]
@@ -712,167 +717,182 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_0.jpg",
+        "src": "/modules_v5/box6/box6_img_0.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_1.jpg",
+        "src": "/modules_v5/box6/box6_img_1.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_2.jpg",
+        "src": "/modules_v5/box6/box6_img_2.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_3.jpg",
+        "src": "/modules_v5/box6/box6_img_3.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_4.jpg",
+        "src": "/modules_v5/box6/box6_img_4.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_5.jpg",
+        "src": "/modules_v5/box6/box6_img_5.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_6.jpg",
+        "src": "/modules_v5/box6/box6_img_6.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_7.jpg",
+        "src": "/modules_v5/box6/box6_img_7.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_8.jpg",
+        "src": "/modules_v5/box6/box6_img_8.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_9.jpg",
+        "src": "/modules_v5/box6/box6_img_9.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_10.jpg",
+        "src": "/modules_v5/box6/box6_img_10.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_11.jpg",
+        "src": "/modules_v5/box6/box6_img_11.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_12.jpg",
+        "src": "/modules_v5/box6/box6_img_12.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_13.jpg",
+        "src": "/modules_v5/box6/box6_img_13.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_14.jpg",
+        "src": "/modules_v5/box6/box6_img_14.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_15.jpg",
+        "src": "/modules_v5/box6/box6_img_15.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_16.jpg",
+        "src": "/modules_v5/box6/box6_img_16.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_17.jpg",
+        "src": "/modules_v5/box6/box6_img_17.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_18.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_19.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "video",
-        "src": "/modules_v4/box6/box6_img_18.mp4",
+        "src": "/modules_v5/box6/box6_img_20.mp4",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "video",
-        "src": "/modules_v4/box6/box6_img_19.mp4",
+        "src": "/modules_v5/box6/box6_img_21.mp4",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_20.jpg",
+        "src": "/modules_v5/box6/box6_img_22.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_21.jpg",
+        "src": "/modules_v5/box6/box6_img_23.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_22.jpg",
+        "src": "/modules_v5/box6/box6_img_24.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_23.jpg",
+        "src": "/modules_v5/box6/box6_img_25.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_24.jpg",
+        "src": "/modules_v5/box6/box6_img_26.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_25.jpg",
+        "src": "/modules_v5/box6/box6_img_27.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_26.jpg",
+        "src": "/modules_v5/box6/box6_img_28.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_27.jpg",
+        "src": "/modules_v5/box6/box6_img_29.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_28.jpg",
+        "src": "/modules_v5/box6/box6_img_30.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_29.jpg",
+        "src": "/modules_v5/box6/box6_img_31.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_30.jpg",
+        "src": "/modules_v5/box6/box6_img_32.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_31.jpg",
+        "src": "/modules_v5/box6/box6_img_33.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_v4/box6/box6_img_32.jpg",
+        "src": "/modules_v5/box6/box6_img_34.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_35.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       }
     ]
