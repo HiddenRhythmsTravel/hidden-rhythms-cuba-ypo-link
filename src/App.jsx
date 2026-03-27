@@ -11,13 +11,7 @@ function App() {
   const [userInteracted, setUserInteracted] = useState(false);
   const audioRef = useRef(null);
 
-  useEffect(() => {
-    if (activeMedia && (activeMedia.type === 'video' || activeMedia.type === 'youtube') && audioRef.current) {
-      audioRef.current.pause();
-    } else if (musicPlaying && audioRef.current && userInteracted) {
-      audioRef.current.play().catch(e => console.log('Autoplay blocked', e));
-    }
-  }, [activeMedia, musicPlaying, userInteracted]);
+  // Deprecated activeMedia.type audio hook removed to support array-based Lightbox pausing
 
   const toggleMusic = () => {
     setUserInteracted(true);
@@ -92,7 +86,7 @@ function App() {
       </main>
 
       {activeMedia && (
-        <Lightbox item={activeMedia} onClose={() => setActiveMedia(null)} />
+        <Lightbox item={activeMedia} onClose={() => setActiveMedia(null)} musicPlaying={musicPlaying} />
       )}
     </>
   );

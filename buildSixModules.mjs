@@ -3,7 +3,7 @@ import path from 'path';
 import { execSync } from 'child_process';
 
 const sourceBase = 'public/New Media/Media for RFP';
-const destBase = 'public/modules_clean';
+const destBase = 'public/modules_final';
 
 if (fs.existsSync(destBase)) fs.rmSync(destBase, { recursive: true, force: true });
 fs.mkdirSync(destBase, { recursive: true });
@@ -128,7 +128,7 @@ boxData.forEach((box, moduleIndex) => {
     if (fs.existsSync(finalPath)) {
       webItems.push({
         type: newName.match(/\.(mp4|mov)$/i) ? 'video' : 'image',
-        src: `/modules_clean/${box.id}/${newName}`,
+        src: `/modules_final/${box.id}/${newName}`,
         title: box.title
       });
     }

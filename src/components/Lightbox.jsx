@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function Lightbox({ item: mediaObj, onClose }) {
+export default function Lightbox({ item: mediaObj, onClose, musicPlaying }) {
   const [currentIndex, setCurrentIndex] = useState(mediaObj.initialIndex !== undefined ? mediaObj.initialIndex : 0);
   
   useEffect(() => {
@@ -23,6 +23,17 @@ export default function Lightbox({ item: mediaObj, onClose }) {
 
   const isVideo = currentItem.type === 'video';
   const isYoutube = currentItem.type === 'youtube';
+
+  useEffect(() => {
+    const audioEl = document.querySelector('audio');
+    if (audioEl) {
+      if (isVideo || isYoutube) {
+        audioEl.pause();
+      } else if (musicPlaying) {
+        audioEl.play().catch(e => console.log('Autoplay constraint triggered', e));
+      }
+    }
+  }, [isVideo, isYoutube, musicPlaying]);
 
   return (
     <div 
