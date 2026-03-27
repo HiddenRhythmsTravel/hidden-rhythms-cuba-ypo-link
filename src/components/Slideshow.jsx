@@ -61,7 +61,7 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
                 <video 
                   src={`${item.src}#t=0.5`} 
                   preload="metadata"
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%' }}
+                  style={{ width: '100%', height: '100%', objectFit: 'contain' }}
                 />
                 <div style={{
                   position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)',
@@ -81,7 +81,7 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
                 src={item.src} 
                 alt={`YPO Cuba 2019 - Slide ${index + 1}`}
                 loading={index > 5 ? "lazy" : "eager"}
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%' }}
+                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
               />
             )}
           </div>

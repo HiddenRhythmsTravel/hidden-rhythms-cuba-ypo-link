@@ -66,14 +66,14 @@ const boxData = [
   {
     id: "box2",
     folderMatching: "2. Jetsetting Private Client Event",
-    max: 20,
+    max: 100,
     title: "Jet-setting Private Client Event, 2019",
     description: "An incredibly bespoke, highly-curated luxury immersion tailored explicitly for jet-setting private clients. Features premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the tropical destination."
   },
   {
     id: "box3",
     folderMatching: "3. Medellin Funk Expedition",
-    max: 15,
+    max: 100,
     title: "Medellin Funk Expedition, 2025",
     description: "An eighty-person, high-end cultural trip to Medellin, Colombia in October 2025. Hidden Rhythms handled lodging, transportation, meals and program curation and implementation for a group of visiting Americans interested in behind-the-scenes access to Colombian music and art."
   },
