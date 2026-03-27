@@ -6,8 +6,128 @@ export const sixModulesData = [
     "description": "A five-day program in Havana, Cuba for 250 CEOs from the Mid-Atlantic region, combining educational sessions, immersive cultural experiences, evenings with top-tier entertainment across Havana's most iconic venues and \"only in YPO\" access to Cuban thought leaders and cultural figures. Hidden Rhythms managed all aspects of the conference, including lodging, meetings, transportation, guides, and curated cultural and educational programming.",
     "items": [
       {
-        "type": "video",
-        "src": "/modules_clean/box1/box1_img_0.mp4",
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_0.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_1.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_2.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_3.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_4.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_5.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_6.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_7.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_8.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_9.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_10.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_11.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_12.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_13.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_14.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_15.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_16.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_17.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_18.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_19.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_20.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_21.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_22.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_23.jpg",
+        "title": "YPO Mid Atlantic Regional Conference, 2019"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box1/box1_img_24.jpg",
         "title": "YPO Mid Atlantic Regional Conference, 2019"
       }
     ]
@@ -128,7 +248,7 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_0.jpeg",
+        "src": "/modules_clean/box3/box3_img_0.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -138,17 +258,17 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_2.jpg",
+        "src": "/modules_clean/box3/box3_img_2.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_3.jpeg",
+        "src": "/modules_clean/box3/box3_img_3.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_4.jpg",
+        "src": "/modules_clean/box3/box3_img_4.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -158,37 +278,37 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_6.jpeg",
+        "src": "/modules_clean/box3/box3_img_6.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_7.jpeg",
+        "src": "/modules_clean/box3/box3_img_7.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_8.jpg",
+        "src": "/modules_clean/box3/box3_img_8.jpeg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_9.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "video",
-        "src": "/modules_clean/box3/box3_img_9.mov",
-        "title": "Medellin Funk Expedition, 2025"
-      },
-      {
-        "type": "image",
-        "src": "/modules_clean/box3/box3_img_10.jpg",
-        "title": "Medellin Funk Expedition, 2025"
-      },
-      {
-        "type": "image",
-        "src": "/modules_clean/box3/box3_img_11.jpg",
+        "src": "/modules_clean/box3/box3_img_10.mov",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "video",
-        "src": "/modules_clean/box3/box3_img_12.mov",
+        "src": "/modules_clean/box3/box3_img_11.mov",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_12.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       }
     ]
@@ -507,7 +627,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_3.jpeg",
+        "src": "/modules_clean/box6/box6_img_3.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -527,12 +647,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_7.jpg",
+        "src": "/modules_clean/box6/box6_img_7.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_8.jpg",
+        "src": "/modules_clean/box6/box6_img_8.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -547,12 +667,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_11.jpg",
+        "src": "/modules_clean/box6/box6_img_11.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
-        "type": "video",
-        "src": "/modules_clean/box6/box6_img_12.mov",
+        "type": "image",
+        "src": "/modules_clean/box6/box6_img_12.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
