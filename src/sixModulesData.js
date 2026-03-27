@@ -208,8 +208,196 @@ export const sixModulesData = [
     ]
   },
   {
-    "id": "box2",
+    "id": "box6",
     "index": "02",
+    "title": "Getting Funky in Havana, 2020-2026",
+    "description": "High-end, high-impact cultural exchange trip for VIP music fans, music executives and philanthropists. Each January Hidden Rhythms brings 250 VIP travelers, 60+ top-tier American Artists and 5-10 journalists to Cuba for a long weekend of jam sessions, intimate rooftop concerts, master classes at music schools, curated meals, panel discussions and cultural experiences and simultaneously produces a 4-night music festival that draws 5-20,000 people each night. Hidden Rhythms handles all elements of both projects, white glove experience for the VIP travelers and artists and a top-notch music festival, Getting Funky in Havana, that will celebrate its 5th edition in 2027.",
+    "items": [
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_0.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_1.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_2.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_3.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_4.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_5.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_6.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_7.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_8.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_9.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_10.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_11.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_12.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_13.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_14.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_15.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_16.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_17.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_18.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_19.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "video",
+        "src": "/modules_v5/box6/box6_img_20.mp4",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "video",
+        "src": "/modules_v5/box6/box6_img_21.mp4",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_22.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_23.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_24.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_25.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_26.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_27.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_28.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_29.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_30.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_31.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_32.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_33.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_34.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_v5/box6/box6_img_35.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      }
+    ]
+  },
+  {
+    "id": "box2",
+    "index": "03",
     "title": "Tech Entrepreneur Birthday Party, 2022",
     "description": "5 day Miami-Havana luxury immersion tailored explicitly for 5-star clients flying private and experiencing top en lodging and experiences. Hidden Rhythms handled premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the week in Miami and Havana for 150 travelers.",
     "items": [
@@ -307,7 +495,7 @@ export const sixModulesData = [
   },
   {
     "id": "box3",
-    "index": "03",
+    "index": "04",
     "title": "Medellin Funk Expedition, 2025",
     "description": "An eighty-person, high-end cultural trip to Medellin, Colombia in October 2025. Hidden Rhythms handled lodging, transportation, meals and program curation and implementation for a group of visiting Americans interested in behind-the-scenes access to Colombian music and art.",
     "items": [
@@ -410,7 +598,7 @@ export const sixModulesData = [
   },
   {
     "id": "box4",
-    "index": "04",
+    "index": "05",
     "title": "The Dallas Assembly Event, 2025",
     "description": "Policy and business focused trip to Havana, Cuba for 175 thought leaders from Dallas, Texas in January 2025. Hidden Rhythms handled all aspects of the conference, including lodging, transportation, meals, socials and educational and cultural experiences, unlocking access to Cuba's top venues, thought leaders, politicians and artists.",
     "items": [
@@ -498,7 +686,7 @@ export const sixModulesData = [
   },
   {
     "id": "box5",
-    "index": "05",
+    "index": "06",
     "title": "Netflix Executive Retreat, 500 Person Event, 2016",
     "description": "Three-day, 30-person Executive Retreat for the Netflix founder, board and top executives, followed by a three-day Quarterly Business Review for 500 global Netflix team members from 20+ countries and 6 continents. Hidden Rhythms handled all aspects of both events, including two dozen private flights, nightly socials with Cuban guests for 1000-2000 people, full team meetings, breakout sessions, meals, transportation, lodging and the development of offline apps for the event to deal with limited connectivity in Cuba at the time.",
     "items": [
@@ -706,194 +894,6 @@ export const sixModulesData = [
         "type": "image",
         "src": "/modules_v5/box5/box5_img_40.jpg",
         "title": "Netflix Executive Retreat, 500 Person Event, 2016"
-      }
-    ]
-  },
-  {
-    "id": "box6",
-    "index": "06",
-    "title": "Getting Funky in Havana, 2020-2026",
-    "description": "High-end, high-impact cultural exchange trip for VIP music fans, music executives and philanthropists. Each January Hidden Rhythms brings 250 VIP travelers, 60+ top-tier American Artists and 5-10 journalists to Cuba for a long weekend of jam sessions, intimate rooftop concerts, master classes at music schools, curated meals, panel discussions and cultural experiences and simultaneously produces a 4-night music festival that draws 5-20,000 people each night. Hidden Rhythms handles all elements of both projects, white glove experience for the VIP travelers and artists and a top-notch music festival, Getting Funky in Havana, that will celebrate its 5th edition in 2027.",
-    "items": [
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_0.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_1.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_2.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_3.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_4.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_5.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_6.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_7.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_8.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_9.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_10.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_11.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_12.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_13.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_14.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_15.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_16.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_17.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_18.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_19.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "video",
-        "src": "/modules_v5/box6/box6_img_20.mp4",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "video",
-        "src": "/modules_v5/box6/box6_img_21.mp4",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_22.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_23.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_24.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_25.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_26.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_27.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_28.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_29.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_30.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_31.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_32.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_33.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_34.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
-      },
-      {
-        "type": "image",
-        "src": "/modules_v5/box6/box6_img_35.jpg",
-        "title": "Getting Funky in Havana, 2020-2026"
       }
     ]
   }

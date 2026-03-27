@@ -62,6 +62,13 @@ const boxData = [
     description: "A five-day program in Havana, Cuba for 250 CEOs from the Mid-Atlantic region, combining educational sessions, immersive cultural experiences, evenings with top-tier entertainment across Havana's most iconic venues and \"only in YPO\" access to Cuban thought leaders and cultural figures. Hidden Rhythms managed all aspects of the conference, including lodging, meetings, transportation, guides, and curated cultural and educational programming."
   },
   {
+    id: "box6",
+    folderMatching: "6. Getting Funky in Havana",
+    max: 1000,
+    title: "Getting Funky in Havana, 2020-2026",
+    description: "High-end, high-impact cultural exchange trip for VIP music fans, music executives and philanthropists. Each January Hidden Rhythms brings 250 VIP travelers, 60+ top-tier American Artists and 5-10 journalists to Cuba for a long weekend of jam sessions, intimate rooftop concerts, master classes at music schools, curated meals, panel discussions and cultural experiences and simultaneously produces a 4-night music festival that draws 5-20,000 people each night. Hidden Rhythms handles all elements of both projects, white glove experience for the VIP travelers and artists and a top-notch music festival, Getting Funky in Havana, that will celebrate its 5th edition in 2027."
+  },
+  {
     id: "box2",
     folderMatching: "2. Jetsetting Private Client Event",
     max: 100,
@@ -88,13 +95,6 @@ const boxData = [
     max: 1000,
     title: "Netflix Executive Retreat, 500 Person Event, 2016",
     description: "Three-day, 30-person Executive Retreat for the Netflix founder, board and top executives, followed by a three-day Quarterly Business Review for 500 global Netflix team members from 20+ countries and 6 continents. Hidden Rhythms handled all aspects of both events, including two dozen private flights, nightly socials with Cuban guests for 1000-2000 people, full team meetings, breakout sessions, meals, transportation, lodging and the development of offline apps for the event to deal with limited connectivity in Cuba at the time."
-  },
-  {
-    id: "box6",
-    folderMatching: "6. Getting Funky in Havana",
-    max: 1000,
-    title: "Getting Funky in Havana, 2020-2026",
-    description: "High-end, high-impact cultural exchange trip for VIP music fans, music executives and philanthropists. Each January Hidden Rhythms brings 250 VIP travelers, 60+ top-tier American Artists and 5-10 journalists to Cuba for a long weekend of jam sessions, intimate rooftop concerts, master classes at music schools, curated meals, panel discussions and cultural experiences and simultaneously produces a 4-night music festival that draws 5-20,000 people each night. Hidden Rhythms handles all elements of both projects, white glove experience for the VIP travelers and artists and a top-notch music festival, Getting Funky in Havana, that will celebrate its 5th edition in 2027."
   }
 ];
 
