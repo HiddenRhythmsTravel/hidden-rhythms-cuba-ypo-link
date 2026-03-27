@@ -81,7 +81,7 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
                 src={item.src} 
                 alt={`YPO Cuba 2019 - Slide ${index + 1}`}
                 loading={index > 5 ? "lazy" : "eager"}
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                style={{ width: '100%', height: '100%', objectFit: data.id === 'box3' ? 'cover' : 'contain', objectPosition: data.id === 'box3' ? 'center 20%' : 'center' }}
               />
             )}
           </div>

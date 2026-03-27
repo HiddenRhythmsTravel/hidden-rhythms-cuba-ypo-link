@@ -121,7 +121,7 @@ boxData.forEach((box, moduleIndex) => {
         fs.copyFileSync(f, videoPath);
       }
     } else {
-      execSync(`sips -s format jpeg -Z 1920 "${f}" --out "${newPath}" 2>/dev/null`);
+      execSync(`sips -s format jpeg -Z 2880 "${f}" --out "${newPath}" 2>/dev/null`);
     }
     
     const finalPath = path.join(modDir, newName);
