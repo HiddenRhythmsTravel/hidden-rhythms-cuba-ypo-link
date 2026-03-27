@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function Lightbox({ item: mediaObj, onClose, musicPlaying }) {
+export default function Lightbox({ item: mediaObj, onClose, musicPlaying, onVideoPlay, onVideoStop }) {
   const [currentIndex, setCurrentIndex] = useState(mediaObj.initialIndex !== undefined ? mediaObj.initialIndex : 0);
   
   useEffect(() => {
@@ -25,19 +25,21 @@ export default function Lightbox({ item: mediaObj, onClose, musicPlaying }) {
   const isYoutube = currentItem.type === 'youtube';
 
   useEffect(() => {
-    const audioEl = document.querySelector('audio');
-    if (audioEl) {
-      if (isVideo || isYoutube) {
-        audioEl.pause();
-      } else if (musicPlaying) {
-        audioEl.play().catch(e => console.log('Autoplay constraint triggered', e));
-      }
+    if (isVideo || isYoutube) {
+      if (onVideoPlay) onVideoPlay();
+    } else {
+      if (onVideoStop) onVideoStop();
     }
-  }, [isVideo, isYoutube, musicPlaying]);
+  }, [isVideo, isYoutube]);
+
+  const handleClose = (e) => {
+    if (onVideoStop) onVideoStop();
+    if (onClose) onClose(e);
+  };
 
   return (
     <div 
-      onClick={onClose}
+      onClick={handleClose}
       className="fade-in"
       style={{
         position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 100,
@@ -47,7 +49,7 @@ export default function Lightbox({ item: mediaObj, onClose, musicPlaying }) {
       }}
     >
       <button 
-        onClick={onClose}
+        onClick={handleClose}
         style={{
           position: 'absolute', top: '1.5rem', right: '1.5rem', width: '44px', height: '44px',
           display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '50%',

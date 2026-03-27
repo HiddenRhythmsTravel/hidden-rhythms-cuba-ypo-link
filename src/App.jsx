@@ -86,7 +86,13 @@ function App() {
       </main>
 
       {activeMedia && (
-        <Lightbox item={activeMedia} onClose={() => setActiveMedia(null)} musicPlaying={musicPlaying} />
+        <Lightbox 
+          item={activeMedia} 
+          onClose={() => setActiveMedia(null)} 
+          musicPlaying={musicPlaying}
+          onVideoPlay={() => { if (audioRef.current) audioRef.current.pause() }}
+          onVideoStop={() => { if (musicPlaying && audioRef.current) audioRef.current.play().catch(e=>console.log(e)) }}
+        />
       )}
     </>
   );
