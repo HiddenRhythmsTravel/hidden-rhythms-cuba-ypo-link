@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 
 const sourceBase = 'public/New Media/Media for RFP';
 const destBase = 'public/modules_clean';
@@ -25,14 +26,28 @@ function getAllFiles(dirPath) {
   return arrayOfFiles;
 }
 
-const getFilteredFiles = (folderName, maxCount) => {
+const getFilteredFiles = (folderName, maxCount, subfolders = null) => {
   const folderPath = path.join(sourceBase, folderName);
-  let files = getAllFiles(folderPath).filter(f => f.match(/\.(jpg|jpeg|png|mp4|mov)$/i) && !f.includes('._'));
   
-  // Exclude massive video files to protect GitHub/Vercel thresholds
+  if (subfolders) {
+    let combinedFiles = [];
+    subfolders.forEach(sub => {
+      const subPath = path.join(folderPath, sub.name);
+      let subFiles = getAllFiles(subPath).filter(f => f.match(/\.(jpg|jpeg|png|mp4|mov|heic)$/i) && !f.includes('._'));
+      subFiles = subFiles.filter(f => fs.statSync(f).size < 80 * 1024 * 1024);
+      for (let i = subFiles.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [subFiles[i], subFiles[j]] = [subFiles[j], subFiles[i]];
+      }
+      combinedFiles = combinedFiles.concat(subFiles.slice(0, sub.max));
+    });
+    return combinedFiles;
+  }
+
+  let files = getAllFiles(folderPath).filter(f => f.match(/\.(jpg|jpeg|png|mp4|mov|heic)$/i) && !f.includes('._'));
+  
   files = files.filter(f => fs.statSync(f).size < 80 * 1024 * 1024);
   
-  // Shuffle strictly
   for (let i = files.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [files[i], files[j]] = [files[j], files[i]];
@@ -52,6 +67,10 @@ const boxData = [
     id: "box2",
     folderMatching: "2. Jetsetting Private Client Event",
     max: 20,
+    subfolders: [
+      { name: "Cimafunk Tribridge", max: 3 },
+      { name: "IG - Happy Birthday Kevin", max: 17 }
+    ],
     title: "Jet-setting Private Client Event, 2019",
     description: "An incredibly bespoke, highly-curated luxury immersion tailored explicitly for jet-setting private clients. Features premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the tropical destination."
   },
@@ -88,21 +107,27 @@ const boxData = [
 const finalExport = [];
 
 boxData.forEach((box, moduleIndex) => {
-  const rawFiles = getFilteredFiles(box.folderMatching, box.max);
+  const rawFiles = getFilteredFiles(box.folderMatching, box.max, box.subfolders);
   const webItems = [];
   
   const modDir = path.join(destBase, box.id);
   fs.mkdirSync(modDir, { recursive: true });
   
   rawFiles.forEach((f, idx) => {
-    const ext = path.extname(f);
-    const newName = `${box.id}_img_${idx}${ext}`;
-    const newPath = path.join(modDir, newName);
+    let ext = path.extname(f).toLowerCase();
+    let newName = `${box.id}_img_${idx}${ext}`;
     
-    fs.copyFileSync(f, newPath);
+    if (ext === '.heic') {
+      newName = `${box.id}_img_${idx}.jpg`;
+      const newPath = path.join(modDir, newName);
+      execSync(`sips -s format jpeg "${f}" --out "${newPath}" 2>/dev/null`);
+    } else {
+      const newPath = path.join(modDir, newName);
+      fs.copyFileSync(f, newPath);
+    }
     
     webItems.push({
-      type: ext.match(/\.(mp4|mov)$/i) ? 'video' : 'image',
+      type: newName.match(/\.(mp4|mov)$/i) ? 'video' : 'image',
       src: `/modules_clean/${box.id}/${newName}`,
       title: box.title
     });

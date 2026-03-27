@@ -35,7 +35,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_3.JPG",
+        "src": "/modules_clean/box2/box2_img_3.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
@@ -50,7 +50,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_6.JPG",
+        "src": "/modules_clean/box2/box2_img_6.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
@@ -75,12 +75,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_11.JPG",
+        "src": "/modules_clean/box2/box2_img_11.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_12.JPG",
+        "src": "/modules_clean/box2/box2_img_12.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
@@ -95,7 +95,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_15.JPG",
+        "src": "/modules_clean/box2/box2_img_15.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
@@ -110,7 +110,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_18.JPG",
+        "src": "/modules_clean/box2/box2_img_18.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
@@ -128,17 +128,67 @@ export const sixModulesData = [
     "items": [
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_0.jpg",
-        "title": "Medellin Funk Expedition, 2025"
-      },
-      {
-        "type": "video",
-        "src": "/modules_clean/box3/box3_img_1.mov",
+        "src": "/modules_clean/box3/box3_img_0.jpeg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_2.jpeg",
+        "src": "/modules_clean/box3/box3_img_1.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_2.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_3.jpeg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_4.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_5.jpeg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_6.jpeg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_7.jpeg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_8.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "video",
+        "src": "/modules_clean/box3/box3_img_9.mov",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_10.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box3/box3_img_11.jpg",
+        "title": "Medellin Funk Expedition, 2025"
+      },
+      {
+        "type": "video",
+        "src": "/modules_clean/box3/box3_img_12.mov",
         "title": "Medellin Funk Expedition, 2025"
       }
     ]
@@ -441,8 +491,8 @@ export const sixModulesData = [
     "description": "High-end, high-impact cultural exchange trip for VIP music fans, music executives and philanthropists. Each January Hidden Rhythms brings 250 VIP travelers, 60+ tier American Artists and 5-10 journalists to Cuba for a long weekend of jam sessions, intimate rooftop concerts, master classes at music schools, curated meals, panel discussions and cultural experiences and simultaneously produces a 4-night music festival that draws 5-20,000 people each night. Hidden Rhythms handles all elements of both projects, white glove experience for the VIP travelers and artists and a top-notch music festival, Getting Funky in Havana, that will celebrate its 5th edition in 2027.",
     "items": [
       {
-        "type": "video",
-        "src": "/modules_clean/box6/box6_img_0.mov",
+        "type": "image",
+        "src": "/modules_clean/box6/box6_img_0.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -457,7 +507,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_3.jpg",
+        "src": "/modules_clean/box6/box6_img_3.jpeg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -492,7 +542,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_10.jpeg",
+        "src": "/modules_clean/box6/box6_img_10.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -501,8 +551,8 @@ export const sixModulesData = [
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
-        "type": "image",
-        "src": "/modules_clean/box6/box6_img_12.jpg",
+        "type": "video",
+        "src": "/modules_clean/box6/box6_img_12.mov",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -518,6 +568,26 @@ export const sixModulesData = [
       {
         "type": "image",
         "src": "/modules_clean/box6/box6_img_15.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box6/box6_img_16.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box6/box6_img_17.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box6/box6_img_18.jpg",
+        "title": "Getting Funky in Havana, 2020-2026"
+      },
+      {
+        "type": "image",
+        "src": "/modules_clean/box6/box6_img_19.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       }
     ]
