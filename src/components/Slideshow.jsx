@@ -8,7 +8,7 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
     if (!items || items.length === 0) return;
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % items.length);
-    }, 750); 
+    }, 3000); 
     return () => clearInterval(interval);
   }, [items]);
 
@@ -52,7 +52,7 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
             style={{
               position: 'absolute', inset: 0,
               opacity: index === currentIndex ? 1 : 0,
-              transition: 'opacity 0.2s ease-in-out',
+              transition: 'opacity 0.8s ease-in-out',
               pointerEvents: 'none'
             }}
           >
@@ -64,6 +64,40 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
             />
           </div>
         ))}
+        
+        <button 
+          onClick={(e) => {
+            e.stopPropagation();
+            setCurrentIndex((prev) => (prev - 1 + items.length) % items.length);
+          }}
+          className="hover-lift"
+          style={{
+            position: 'absolute', top: '50%', left: '1rem', transform: 'translateY(-50%)',
+            background: 'rgba(0,0,0,0.6)', color: 'white', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '50%',
+            width: '44px', height: '44px', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            cursor: 'pointer', zIndex: 20, backdropFilter: 'blur(8px)'
+          }}
+          aria-label="Previous image"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <button 
+          onClick={(e) => {
+            e.stopPropagation();
+            setCurrentIndex((prev) => (prev + 1) % items.length);
+          }}
+          className="hover-lift"
+          style={{
+            position: 'absolute', top: '50%', right: '1rem', transform: 'translateY(-50%)',
+            background: 'rgba(0,0,0,0.6)', color: 'white', border: '1px solid rgba(255,255,255,0.2)', borderRadius: '50%',
+            width: '44px', height: '44px', display: 'flex', alignItems: 'center', justifyContent: 'center',
+            cursor: 'pointer', zIndex: 20, backdropFilter: 'blur(8px)'
+          }}
+          aria-label="Next image"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
         
         {/* Navigation Dots */}
         <div style={{
