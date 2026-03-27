@@ -109,26 +109,29 @@ boxData.forEach((box, moduleIndex) => {
   
   rawFiles.forEach((f, idx) => {
     let ext = path.extname(f).toLowerCase();
-    let newName = `${box.id}_img_${idx}${ext}`;
+    let newName = `${box.id}_img_${idx}.jpg`;
+    const newPath = path.join(modDir, newName);
     
-    if (ext === '.heic') {
-      newName = `${box.id}_img_${idx}.jpg`;
-      const newPath = path.join(modDir, newName);
-      execSync(`sips -s format jpeg "${f}" --out "${newPath}" 2>/dev/null`);
-    } else if (ext === '.mov') {
+    if (ext === '.mov' || ext === '.mp4') {
       newName = `${box.id}_img_${idx}.mp4`;
-      const newPath = path.join(modDir, newName);
-      execSync(`avconvert --source "${f}" --output "${newPath}" -p Preset1280x720 --replace 2>/dev/null`);
+      const videoPath = path.join(modDir, newName);
+      if (ext === '.mov') {
+        execSync(`avconvert --source "${f}" --output "${videoPath}" -p Preset1280x720 --replace 2>/dev/null`);
+      } else {
+        fs.copyFileSync(f, videoPath);
+      }
     } else {
-      const newPath = path.join(modDir, newName);
-      fs.copyFileSync(f, newPath);
+      execSync(`sips -s format jpeg -Z 1920 "${f}" --out "${newPath}" 2>/dev/null`);
     }
     
-    webItems.push({
-      type: newName.match(/\.(mp4|mov)$/i) ? 'video' : 'image',
-      src: `/modules_clean/${box.id}/${newName}`,
-      title: box.title
-    });
+    const finalPath = path.join(modDir, newName);
+    if (fs.existsSync(finalPath)) {
+      webItems.push({
+        type: newName.match(/\.(mp4|mov)$/i) ? 'video' : 'image',
+        src: `/modules_clean/${box.id}/${newName}`,
+        title: box.title
+      });
+    }
   });
   
   finalExport.push({

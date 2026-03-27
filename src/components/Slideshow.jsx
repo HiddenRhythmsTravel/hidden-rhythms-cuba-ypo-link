@@ -43,7 +43,7 @@ export default function Slideshow({ data, onMediaClick, reverse }) {
         cursor: 'pointer'
       }}
       onClick={() => {
-        if (items[currentIndex]) onMediaClick(items[currentIndex]);
+        if (items[currentIndex]) onMediaClick({ items, initialIndex: currentIndex });
       }}
       >
         {items.map((item, index) => (

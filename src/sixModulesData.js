@@ -270,7 +270,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box2/box2_img_11.png",
+        "src": "/modules_clean/box2/box2_img_11.jpg",
         "title": "Jet-setting Private Client Event, 2019"
       },
       {
@@ -323,7 +323,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_2.jpeg",
+        "src": "/modules_clean/box3/box3_img_2.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -343,12 +343,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_6.jpeg",
+        "src": "/modules_clean/box3/box3_img_6.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_7.jpeg",
+        "src": "/modules_clean/box3/box3_img_7.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -358,12 +358,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_9.jpeg",
+        "src": "/modules_clean/box3/box3_img_9.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box3/box3_img_10.jpeg",
+        "src": "/modules_clean/box3/box3_img_10.jpg",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -787,12 +787,12 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_13.jpeg",
+        "src": "/modules_clean/box6/box6_img_13.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_14.jpeg",
+        "src": "/modules_clean/box6/box6_img_14.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
@@ -817,7 +817,7 @@ export const sixModulesData = [
       },
       {
         "type": "image",
-        "src": "/modules_clean/box6/box6_img_19.jpeg",
+        "src": "/modules_clean/box6/box6_img_19.jpg",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
