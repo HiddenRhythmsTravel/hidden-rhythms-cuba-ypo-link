@@ -68,7 +68,7 @@ function App() {
 
       <main className="fade-in" style={{ animationDelay: '0.2s', padding: '4rem 1rem' }}>
         <section style={{ textAlign: 'center', marginBottom: '6rem', maxWidth: '800px', margin: '0 auto 6rem' }}>
-          <h2 style={{ fontSize: '3.5rem', fontFamily: 'var(--font-serif)', marginBottom: '1rem', lineHeight: '1.1' }}>Hidden Rhythm Events</h2>
+          <h2 style={{ fontSize: '3.5rem', fontFamily: 'var(--font-serif)', marginBottom: '1rem', lineHeight: '1.1' }}>Hidden Rhythms Events</h2>
           <p style={{ fontSize: '1.25rem', opacity: 0.8, letterSpacing: '0.02em' }}>
             A Master Collection of Global Production Highlights
           </p>
