@@ -25,12 +25,12 @@ export default function Lightbox({ item: mediaObj, onClose, musicPlaying, onVide
   const isYoutube = currentItem.type === 'youtube';
 
   useEffect(() => {
-    if (isVideo || isYoutube) {
+    if (isYoutube) {
       if (onVideoPlay) onVideoPlay();
-    } else {
+    } else if (!isVideo) {
       if (onVideoStop) onVideoStop();
     }
-  }, [isVideo, isYoutube]);
+  }, [isYoutube, isVideo]);
 
   const handleClose = (e) => {
     if (onVideoStop) onVideoStop();
@@ -83,6 +83,9 @@ export default function Lightbox({ item: mediaObj, onClose, musicPlaying, onVide
             src={`${currentItem.src}#t=0.5`} 
             controls 
             autoPlay 
+            onPlay={() => { if (onVideoPlay) onVideoPlay(); }}
+            onPause={() => { if (onVideoStop) onVideoStop(); }}
+            onEnded={() => { if (onVideoStop) onVideoStop(); }}
             style={{ maxWidth: '100%', maxHeight: '85vh', borderRadius: '8px', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)' }}
           />
         ) : isYoutube ? (
