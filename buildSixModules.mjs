@@ -65,7 +65,7 @@ const boxData = [
     id: "box2",
     folderMatching: "2. Jetsetting Private Client Event",
     max: 100,
-    title: "Tech Entreprenuer Birthday Party, 2022",
+    title: "Tech Entrepreneur Birthday Party, 2022",
     description: "5 day Miami-Havana luxury immersion tailored explicitly for 5-star clients flying private and experiencing top en lodging and experiences. Hidden Rhythms handled premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the week in Miami and Havana for 150 travelers."
   },
   {

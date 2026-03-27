@@ -210,93 +210,93 @@ export const sixModulesData = [
   {
     "id": "box2",
     "index": "02",
-    "title": "Tech Entreprenuer Birthday Party, 2022",
+    "title": "Tech Entrepreneur Birthday Party, 2022",
     "description": "5 day Miami-Havana luxury immersion tailored explicitly for 5-star clients flying private and experiencing top en lodging and experiences. Hidden Rhythms handled premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the week in Miami and Havana for 150 travelers.",
     "items": [
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_0.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_1.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_2.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_3.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_4.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_5.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_6.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_7.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_8.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_9.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_10.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_11.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_12.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_13.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_14.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_15.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       },
       {
         "type": "image",
         "src": "/modules_v3/box2/box2_img_16.jpg",
-        "title": "Tech Entreprenuer Birthday Party, 2022"
+        "title": "Tech Entrepreneur Birthday Party, 2022"
       }
     ]
   },
