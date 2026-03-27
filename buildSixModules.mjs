@@ -48,10 +48,8 @@ const getFilteredFiles = (folderName, maxCount, subfolders = null) => {
   
   files = files.filter(f => fs.statSync(f).size < 80 * 1024 * 1024);
   
-  for (let i = files.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [files[i], files[j]] = [files[j], files[i]];
-  }
+  files.sort((a, b) => a.localeCompare(b));
+  
   return files.slice(0, maxCount);
 };
 
@@ -59,7 +57,7 @@ const boxData = [
   {
     id: "box1",
     folderMatching: "1. YPO Regional Conference",
-    max: 25,
+    max: 1000,
     title: "YPO Mid Atlantic Regional Conference, 2019",
     description: "A five-day program in Havana, Cuba for 250 CEOs from the Mid-Atlantic region, combining educational sessions, immersive cultural experiences, evenings with top-tier entertainment across Havana's most iconic venues and \"only in YPO\" access to Cuban thought leaders and cultural figures. Hidden Rhythms managed all aspects of the conference, including lodging, meetings, transportation, guides, and curated cultural and educational programming."
   },
