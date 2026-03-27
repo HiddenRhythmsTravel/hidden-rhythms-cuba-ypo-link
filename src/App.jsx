@@ -47,22 +47,29 @@ function App() {
       <Header />
       
       <button 
-        onClick={(e) => { e.stopPropagation(); toggleMusic(); }}
+        onClick={toggleMusic}
         className="hover-lift"
         style={{
-          position: 'fixed', bottom: '1.5rem', right: '1.5rem', zIndex: 50,
-          width: '48px', height: '48px', borderRadius: '50%',
-          backgroundColor: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(8px)',
-          border: '1px solid rgba(255,255,255,0.2)', color: 'white',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          cursor: 'pointer'
+          position: 'fixed', top: '1.5rem', left: '1.5rem', zIndex: 1000,
+          background: 'rgba(0,0,0,0.5)', color: 'white', border: '1px solid rgba(255,255,255,0.1)',
+          padding: '0.75rem 1.25rem', borderRadius: '30px', cursor: 'pointer',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
+          backdropFilter: 'blur(10px)', boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
+          transition: 'all 0.3s ease',
+          fontFamily: 'var(--font-sans)', fontSize: '0.95rem', letterSpacing: '0.05em'
         }}
-        title={musicPlaying ? "Pause Music" : "Play Music"}
+        aria-label={musicPlaying ? "Mute background music" : "Play background music"}
       >
         {musicPlaying ? (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+          <>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+            Mute Music
+          </>
         ) : (
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          <>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+            Play Music
+          </>
         )}
       </button>
 
