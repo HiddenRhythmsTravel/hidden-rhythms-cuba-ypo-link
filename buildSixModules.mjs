@@ -115,6 +115,10 @@ boxData.forEach((box, moduleIndex) => {
       newName = `${box.id}_img_${idx}.jpg`;
       const newPath = path.join(modDir, newName);
       execSync(`sips -s format jpeg "${f}" --out "${newPath}" 2>/dev/null`);
+    } else if (ext === '.mov') {
+      newName = `${box.id}_img_${idx}.mp4`;
+      const newPath = path.join(modDir, newName);
+      execSync(`avconvert --source "${f}" --output "${newPath}" -p Preset1280x720 --replace 2>/dev/null`);
     } else {
       const newPath = path.join(modDir, newName);
       fs.copyFileSync(f, newPath);

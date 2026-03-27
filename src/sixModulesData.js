@@ -353,7 +353,7 @@ export const sixModulesData = [
       },
       {
         "type": "video",
-        "src": "/modules_clean/box3/box3_img_8.mov",
+        "src": "/modules_clean/box3/box3_img_8.mp4",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -373,7 +373,7 @@ export const sixModulesData = [
       },
       {
         "type": "video",
-        "src": "/modules_clean/box3/box3_img_12.mov",
+        "src": "/modules_clean/box3/box3_img_12.mp4",
         "title": "Medellin Funk Expedition, 2025"
       },
       {
@@ -797,7 +797,7 @@ export const sixModulesData = [
       },
       {
         "type": "video",
-        "src": "/modules_clean/box6/box6_img_15.mov",
+        "src": "/modules_clean/box6/box6_img_15.mp4",
         "title": "Getting Funky in Havana, 2020-2026"
       },
       {
