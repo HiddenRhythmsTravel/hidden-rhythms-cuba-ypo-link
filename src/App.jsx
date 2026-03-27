@@ -43,7 +43,7 @@ function App() {
 
   return (
     <>
-      <audio ref={audioRef} src="/media/background.mp3" loop preload="auto" />
+      <audio ref={audioRef} src="/media/cumbiafrica_morenita.mp3" loop preload="auto" />
       <Header />
       
       <button 
