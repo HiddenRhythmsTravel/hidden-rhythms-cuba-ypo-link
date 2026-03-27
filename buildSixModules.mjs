@@ -65,8 +65,8 @@ const boxData = [
     id: "box2",
     folderMatching: "2. Jetsetting Private Client Event",
     max: 100,
-    title: "Jet-setting Private Client Event, 2019",
-    description: "An incredibly bespoke, highly-curated luxury immersion tailored explicitly for jet-setting private clients. Features premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the tropical destination."
+    title: "Tech Entreprenuer Birthday Party, 2022",
+    description: "5 day Miami-Havana luxury immersion tailored explicitly for 5-star clients flying private and experiencing top en lodging and experiences. Hidden Rhythms handled premium access to exclusive venues, private concerts, high-end culinary experiences, and uncompromised VIP treatment throughout the week in Miami and Havana for 150 travelers."
   },
   {
     id: "box3",
