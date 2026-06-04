@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EO Columbus Chapter Retreat - Colombia 2027 Teaser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0b1a19;
+      --bg-secondary: #0d3835;
+      --surface: #112d2b;
+      --accent: #ef9c82;
+      --accent-gold: #d4af37;
+      --text-heading: #f9eee7;
+      --text-primary: #f9eee7;
+      --transition-smooth: all 0.3s ease;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: 'Outfit', sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      padding-bottom: 4rem;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+      color: var(--text-heading);
+      font-weight: 500;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      text-align: center;
+      padding: 5rem 1rem 4rem;
+      background: radial-gradient(circle at center, rgba(239, 156, 130, 0.15) 0%, rgba(11, 71, 69, 0) 70%), var(--bg-primary);
+      border-bottom: 1px solid rgba(249, 238, 231, 0.05);
+      overflow: hidden;
+      border-radius: 0 0 24px 24px;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('/assets/colombia_hero.webp');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.15;
+      filter: grayscale(80%) contrast(120%);
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      border: 1px solid rgba(239, 156, 130, 0.3);
+      margin-bottom: 1.5rem;
+    }
+
+    .hero span {
+      font-size: 0.85rem;
+      color: var(--accent);
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero h1 {
+      font-size: 2.75rem;
+      letter-spacing: 0.03em;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+
+    .hero h2 {
+      font-size: 1.75rem;
+      font-style: italic;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      opacity: 0.8;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* Section Styles */
+    .section {
+      margin-top: 3.5rem;
+    }
+
+    .section-title {
+      font-size: 1.75rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 40px;
+      height: 2px;
+      background-color: var(--accent);
+    }
+
+    .intro-text {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+    }
+
+    /* Hotel Cards Grid */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    @media (min-width: 600px) {
+      .grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      overflow: hidden;
+      transition: var(--transition-smooth);
+    }
+
+    .card-img {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .card-content {
+      padding: 1.5rem;
+    }
+
+    .card-tag {
+      font-size: 0.75rem;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .card p {
+      font-size: 0.9rem;
+      opacity: 0.8;
+      line-height: 1.6;
+    }
+
+    /* Highlights list */
+    .highlights {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+
+    @media (min-width: 600px) {
+      .highlights {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .highlight-item {
+      display: flex;
+      gap: 1rem;
+      background: rgba(255, 255, 255, 0.02);
+      padding: 1.25rem;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.03);
+    }
+
+    .highlight-icon {
+      color: var(--accent);
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    .highlight-text h4 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+      color: var(--text-heading);
+    }
+
+    .highlight-text p {
+      font-size: 0.85rem;
+      opacity: 0.75;
+      line-height: 1.5;
+    }
+
+    /* CTA Section */
+    .cta-box {
+      margin-top: 4rem;
+      background: var(--bg-secondary);
+      border: 1px solid rgba(239, 156, 130, 0.15);
+      border-radius: 16px;
+      padding: 2.5rem;
+      text-align: center;
+    }
+
+    .cta-box h3 {
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .cta-box p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      margin-bottom: 2rem;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    @media (min-width: 600px) {
+      .cta-buttons {
+        flex-direction: row;
+      }
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      transition: var(--transition-smooth);
+    }
+
+    .btn-primary {
+      background-color: var(--accent);
+      color: var(--bg-primary);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--text-heading);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: var(--text-heading);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+      border-color: var(--text-heading);
+      transform: translateY(-2px);
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      .card, .cta-box, .highlight-item {
+        background: #f9f9f9;
+        border: 1px solid #e0e0e0;
+        color: #000000;
+      }
+      .btn {
+        border: 1px solid #000000;
+        color: #000000;
+        background: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Banner -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content container">
+      <img src="/assets/humingbird-logo.jpg" alt="Hidden Rhythms Logo" class="logo">
+      <span>EO Columbus Chapter Retreat</span>
+      <h1>The Hidden Rhythms</h1>
+      <h2>of Colombia</h2>
+      <p>Medellín & Bogotá | January 27 – February 2, 2027</p>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- Introduction -->
+    <section class="section">
+      <p class="intro-text">
+        Colombia is a land defined by dramatic transformations, vibrant cultural pulses, and architectural wonders. This January, join fellow EO Columbus members on a bespoke, high-touch journey through the country’s two most compelling capitals: the spring-like valley of Medellín and the high-altitude cosmopolitan epicenter of Bogotá.
+      </p>
+    </section>
+
+    <!-- Program Highlights -->
+    <section class="section">
+      <h2 class="section-title">Teaser Program Highlights</h2>
+      <ul class="highlights">
+        <li class="highlight-item">
+          <div class="highlight-icon">✦</div>
+          <div class="highlight-text">
+            <h4>Medellín Transformation Keynote</h4>
+            <p>An off-the-record briefing detailing the city's historic social and economic evolution.</p>
+          </div>
+        </li>
+        <li class="highlight-item">
+          <div class="highlight-icon">✦</div>
+          <div class="highlight-text">
+            <h4>Andean Helicopter Curation</h4>
+            <p>Private flight over the spectacular waters and monoliths of Guatapé and El Peñol.</p>
+          </div>
+        </li>
+        <li class="highlight-item">
+          <div class="highlight-icon">✦</div>
+          <div class="highlight-text">
+            <h4>Comuna 13 Art & Rhythm</h4>
+            <p>Immersive street art curation and a private session with the *Son Batá* collective.</p>
+          </div>
+        </li>
+        <li class="highlight-item">
+          <div class="highlight-icon">✦</div>
+          <div class="highlight-text">
+            <h4>State of the Nation Briefing</h4>
+            <p>An exclusive political and economic forecast in Bogotá with a leading national analyst.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Accommodations -->
+    <section class="section">
+      <h2 class="section-title">Elite Base Accommodations</h2>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-img" style="background-image: url('/assets/click_clack_banner.webp');"></div>
+          <div class="card-content">
+            <span class="card-tag">Medellín Base</span>
+            <h3>Hotel Click Clack</h3>
+            <p>Award-winning design-forward architecture and high-energy rooftop amenities in the heart of El Poblado district.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img" style="background-image: url('/assets/sofitel_banner.webp');"></div>
+          <div class="card-content">
+            <span class="card-tag">Bogotá Extension</span>
+            <h3>Sofitel Victoria Regia</h3>
+            <p>Five-star French refinement, customized butler services, and absolute security inside the prestigious Zona T.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Actions -->
+    <section class="cta-box">
+      <h3>Ready to Experience Colombia?</h3>
+      <p>Due to the bespoke nature of the helicopter tours and private culinary sessions, retreat registration slots are strictly capped.</p>
+      <div class="cta-buttons">
+        <a href="/" target="_blank" class="btn btn-secondary">Explore Interactive Proposal</a>
+        <a href="https://forms.zohopublic.com/caribbeanexecutivetravel1/form/HRTTravelRegistration/formperma/SHoOEyI-cABdddRGuEWJtOC16QHkqKNZAqN8ONrdI6M" target="_blank" class="btn btn-primary">Begin Registration Form</a>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
