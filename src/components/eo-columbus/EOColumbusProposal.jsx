@@ -554,7 +554,7 @@ export default function EOColumbusProposal() {
         </button>
       </div>
 
-            <main style={{ padding: "4rem 2rem", maxWidth: "1200px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "6rem" }}>
+            <main className="proposal-main" style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "6rem" }}>
         {/* SECTION 1: GALLERY */}
         <section id="gallery" className="fade-in" style={{ scrollMarginTop: "140px" }}>
           <div className="fade-in">
@@ -753,9 +753,9 @@ export default function EOColumbusProposal() {
                 Watch glimpses of the signature experiences awaiting our EO Columbus delegation.
               </p>
               
-              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
+              <div className="bottom-videos-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
                 {/* Helicopter Video */}
-                <div style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%" }} className="hover-lift">
+                <div className="bottom-video-card hover-lift" style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%" }}>
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
                     <video
                       src="/assets/helicopter_tour.mp4"
@@ -775,7 +775,7 @@ export default function EOColumbusProposal() {
                 </div>
 
                 {/* Montserrat Video */}
-                <div style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%" }} className="hover-lift">
+                <div className="bottom-video-card hover-lift" style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%" }}>
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
                     <video
                       src="/assets/montserrat_cable_car.mp4"
