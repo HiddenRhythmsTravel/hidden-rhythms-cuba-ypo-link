@@ -223,6 +223,7 @@ const galleryItems = [
   {
     type: "video",
     src: "/assets/drone_footage_comuna13.mp4",
+    thumbnail: "/assets/colombia-main-comuna-13.jpg",
     title: "Comuna 13",
     location: "Medellín",
     date: "January 2027"
@@ -244,6 +245,7 @@ const galleryItems = [
   {
     type: "video",
     src: "/assets/helicopter_tour.mp4",
+    thumbnail: "/assets/helicopter.jpg",
     title: "Helicopter Tour",
     location: "El Peñol",
     date: "January 2027"
@@ -286,6 +288,7 @@ const galleryItems = [
   {
     type: "video",
     src: "/assets/montserrat_cable_car.mp4",
+    thumbnail: "/assets/montserrat_cable_car.gif",
     title: "Montserrat",
     location: "Cable Car ride in Bogota",
     date: "January 2027"
@@ -569,35 +572,34 @@ export default function EOColumbusProposal() {
               {galleryItems.map((item, idx) => (
                 <div 
                   key={idx} 
+                  onClick={() => openLightbox(item, idx)}
                   style={{
                     position: "relative", width: "100%", paddingBottom: "100%", overflow: "hidden",
                     background: "rgba(255,255,255,0.03)", border: "1px solid rgba(255,255,255,0.05)",
                     borderRadius: "4px", boxShadow: "0 4px 10px rgba(0,0,0,0.15)",
-                    transition: "transform 0.4s ease"
+                    transition: "transform 0.4s ease", cursor: "pointer"
                   }}
                   className="hover-lift"
                 >
-                  {item.type === "video" ? (
-                    <video
-                      src={item.src}
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      style={{
-                        position: "absolute", inset: 0, width: "100%", height: "100%",
-                        objectFit: "cover", transition: "transform 0.5s ease"
-                      }}
-                    />
-                  ) : (
-                    <img 
-                      src={item.src} 
-                      alt={item.title} 
-                      style={{
-                        position: "absolute", inset: 0, width: "100%", height: "100%",
-                        objectFit: "cover", transition: "transform 0.5s ease"
-                      }}
-                    />
+                  <img 
+                    src={item.type === "video" ? item.thumbnail : item.src} 
+                    alt={item.title} 
+                    style={{
+                      position: "absolute", inset: 0, width: "100%", height: "100%",
+                      objectFit: "cover", transition: "transform 0.5s ease"
+                    }}
+                  />
+                  {item.type === "video" && (
+                    <div style={{
+                      position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
+                      width: "50px", height: "50px", borderRadius: "50%", background: "rgba(11, 71, 69, 0.85)",
+                      border: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center",
+                      backdropFilter: "blur(8px)", boxShadow: "0 4px 15px rgba(0,0,0,0.3)", pointerEvents: "none", zIndex: 2
+                    }}>
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style={{ color: "var(--accent)", marginLeft: "2px" }}>
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
                   )}
                   <div style={{
                     position: "absolute", bottom: 0, left: 0, right: 0,
