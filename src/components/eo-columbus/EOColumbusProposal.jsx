@@ -381,6 +381,7 @@ export default function EOColumbusProposal() {
 
       {/* Hero Section */}
       <section className="proposal-hero" style={{ minHeight: "80vh", display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", position: "relative", backgroundColor: "var(--bg-primary)" }}>
+        <div className="proposal-hero-bg"></div>
         <div className="proposal-hero-map-container" style={{
           position: "absolute",
           top: "50%",
@@ -757,17 +758,23 @@ export default function EOColumbusProposal() {
               
               <div className="bottom-videos-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
                 {/* Helicopter Video */}
-                <div className="bottom-video-card hover-lift" style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%" }}>
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "video", src: "/assets/helicopter_tour.mp4", title: "Andean Helicopter Flight", location: "El Peñol", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <video
-                      src="/assets/helicopter_tour.mp4"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      controls
+                    <img
+                      src="/assets/helicopter_tour.gif"
+                      alt="Andean Helicopter Flight"
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
                     />
+                    <div style={{
+                      position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
+                      width: "44px", height: "44px", borderRadius: "50%", background: "rgba(11, 71, 69, 0.85)",
+                      border: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center",
+                      backdropFilter: "blur(8px)", boxShadow: "0 4px 15px rgba(0,0,0,0.3)"
+                    }}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style={{ color: "var(--accent)", marginLeft: "2px" }}>
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
                   </div>
                   <div style={{ textAlign: "center", marginTop: "1rem" }}>
                     <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
@@ -777,17 +784,23 @@ export default function EOColumbusProposal() {
                 </div>
 
                 {/* Montserrat Video */}
-                <div className="bottom-video-card hover-lift" style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%" }}>
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "video", src: "/assets/montserrat_cable_car.mp4", title: "Monserrate Cable Car", location: "Cable Car ride in Bogota", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <video
-                      src="/assets/montserrat_cable_car.mp4"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      controls
+                    <img
+                      src="/assets/montserrat_cable_car.gif"
+                      alt="Monserrate Cable Car"
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
                     />
+                    <div style={{
+                      position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
+                      width: "44px", height: "44px", borderRadius: "50%", background: "rgba(11, 71, 69, 0.85)",
+                      border: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center",
+                      backdropFilter: "blur(8px)", boxShadow: "0 4px 15px rgba(0,0,0,0.3)"
+                    }}>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style={{ color: "var(--accent)", marginLeft: "2px" }}>
+                        <path d="M8 5v14l11-7z" />
+                      </svg>
+                    </div>
                   </div>
                   <div style={{ textAlign: "center", marginTop: "1rem" }}>
                     <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
