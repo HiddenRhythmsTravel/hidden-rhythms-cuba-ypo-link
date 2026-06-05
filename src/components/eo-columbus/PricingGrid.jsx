@@ -35,24 +35,26 @@ export default function PricingGrid() {
             <p style={{ fontSize: "0.9rem", opacity: 0.7, margin: 0 }}>Main Chapter Retreat: January 27–31, 2027 (4 Nights)</p>
           </div>
 
-          <table className="pricing-table">
-            <thead>
-              <tr>
-                <th>Passenger Tier</th>
-                <th>Double Occupancy</th>
-                <th>Single Occupancy</th>
-              </tr>
-            </thead>
-            <tbody>
-              {medellinPricing.map((row, idx) => (
-                <tr key={idx}>
-                  <td style={{ fontWeight: "bold", fontSize: "0.92rem" }}>{row.tier}</td>
-                  <td style={{ color: "var(--accent-gold)", fontWeight: "600", fontSize: "1rem" }}>{row.double} <span style={{fontSize:"0.75rem", opacity:0.6}}>/ pax</span></td>
-                  <td style={{ color: "white", fontWeight: "500", fontSize: "1rem" }}>{row.single} <span style={{fontSize:"0.75rem", opacity:0.6}}>/ pax</span></td>
+          <div style={{ overflowX: "auto", width: "100%", WebkitOverflowScrolling: "touch" }}>
+            <table className="pricing-table">
+              <thead>
+                <tr>
+                  <th>Passenger Tier</th>
+                  <th>Double Occupancy</th>
+                  <th>Single Occupancy</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {medellinPricing.map((row, idx) => (
+                  <tr key={idx}>
+                    <td style={{ fontWeight: "bold", fontSize: "0.92rem" }}>{row.tier}</td>
+                    <td style={{ color: "var(--accent-gold)", fontWeight: "600", fontSize: "1rem" }}>{row.double} <span style={{fontSize:"0.75rem", opacity:0.6}}>/ pax</span></td>
+                    <td style={{ color: "white", fontWeight: "500", fontSize: "1rem" }}>{row.single} <span style={{fontSize:"0.75rem", opacity:0.6}}>/ pax</span></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
           <div style={{ fontSize: "0.82rem", opacity: 0.6, marginTop: "0.5rem", borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "1rem" }}>
             *Medellín ground package pricing includes 4 nights accommodations at the Hotel Click Clack, 4 breakfasts, 3 lunches, 2 dinners, professional bilingual guides, local transport, speaker fees, and admissions.
@@ -70,24 +72,26 @@ export default function PricingGrid() {
             <p style={{ fontSize: "0.9rem", opacity: 0.7, margin: 0 }}>Capital Immersive: January 31–Feb 1 or 2, 2027 (1 or 2 Nights)</p>
           </div>
 
-          <table className="pricing-table">
-            <thead>
-              <tr>
-                <th>Extension Tier & Nights</th>
-                <th>Double Occupancy</th>
-                <th>Single Supp.</th>
-              </tr>
-            </thead>
-            <tbody>
-              {bogotaPricing.map((row, idx) => (
-                <tr key={idx}>
-                  <td style={{ fontWeight: "bold", fontSize: "0.92rem" }}>{row.tier}</td>
-                  <td style={{ color: "var(--accent-gold)", fontWeight: "600", fontSize: "1rem" }}>{row.cost} <span style={{fontSize:"0.75rem", opacity:0.6}}>/ pax</span></td>
-                  <td style={{ color: "white", fontWeight: "500", fontSize: "0.92rem" }}>+$250 <span style={{fontSize:"0.75rem", opacity:0.6}}>/ night</span></td>
+          <div style={{ overflowX: "auto", width: "100%", WebkitOverflowScrolling: "touch" }}>
+            <table className="pricing-table">
+              <thead>
+                <tr>
+                  <th>Extension Tier & Nights</th>
+                  <th>Double Occupancy</th>
+                  <th>Single Supp.</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {bogotaPricing.map((row, idx) => (
+                  <tr key={idx}>
+                    <td style={{ fontWeight: "bold", fontSize: "0.92rem" }}>{row.tier}</td>
+                    <td style={{ color: "var(--accent-gold)", fontWeight: "600", fontSize: "1rem" }}>{row.cost} <span style={{fontSize:"0.75rem", opacity:0.6}}>/ pax</span></td>
+                    <td style={{ color: "white", fontWeight: "500", fontSize: "0.92rem" }}>+$250 <span style={{fontSize:"0.75rem", opacity:0.6}}>/ night</span></td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
 
           <div style={{ fontSize: "0.82rem", opacity: 0.6, marginTop: "0.5rem", borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "1rem" }}>
             *Bogotá extension pricing includes Sofitel Victoria Regia lodging, domestic flight from Medellín to Bogotá, 2 breakfasts, 1 lunch, 2 dinners, professional guides, private local transport, art tours, and admissions.

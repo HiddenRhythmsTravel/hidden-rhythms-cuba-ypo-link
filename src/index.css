@@ -673,12 +673,19 @@ main {
   background: rgba(11, 71, 69, 0.85);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(249, 238, 231, 0.08);
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 1.5rem;
   display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+  justify-content: flex-start;
+  gap: 1rem;
   overflow-x: auto;
   scrollbar-width: none;
+}
+@media (min-width: 768px) {
+  .sticky-subnav {
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0.75rem 2rem;
+  }
 }
 .sticky-subnav::-webkit-scrollbar { display: none; }
 
@@ -878,5 +885,19 @@ main {
 @media (min-width: 1024px) {
   .responsive-grid-gallery {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Timeline mobile optimizations */
+@media (max-width: 640px) {
+  .timeline-container {
+    padding-left: 1.5rem;
+    margin: 2rem auto;
+  }
+  .timeline-marker {
+    left: -1.5rem;
+  }
+  .timeline-content-card {
+    padding: 1.25rem;
   }
 }

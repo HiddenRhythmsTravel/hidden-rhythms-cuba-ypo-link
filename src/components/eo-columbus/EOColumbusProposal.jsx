@@ -497,13 +497,13 @@ export default function EOColumbusProposal() {
             Exclusive Chapter Retreat
           </span>
           <h1 style={{
-            fontSize: "3.75rem", fontFamily: "var(--font-serif)", color: "var(--text-heading)",
+            fontSize: "clamp(2.2rem, 7vw, 3.75rem)", fontFamily: "var(--font-serif)", color: "var(--text-heading)",
             lineHeight: "1.1", marginBottom: "1.5rem"
           }}>
             EO Columbus Chapter Retreat
           </h1>
           <p style={{
-            fontSize: "1.8rem", fontFamily: "var(--font-serif)", color: "var(--accent)",
+            fontSize: "clamp(1.3rem, 4vw, 1.8rem)", fontFamily: "var(--font-serif)", color: "var(--accent)",
             fontStyle: "italic", marginBottom: "1.5rem"
           }}>
             Medellín with Bogotá Extension
@@ -511,7 +511,7 @@ export default function EOColumbusProposal() {
           <p style={{ fontSize: "1.2rem", opacity: 0.9, maxWidth: "750px", margin: "0 auto 2.5rem", lineHeight: "1.7" }}>
             January 27 – February 2, 2027
           </p>
-          <div style={{ display: "flex", justifyContent: "center", gap: "1rem" }}>
+          <div style={{ display: "flex", justifyContent: "center", gap: "1rem", flexWrap: "wrap" }}>
             <a href="#register" onClick={() => scrollToSection("register")} style={{
               background: "var(--accent)", color: "var(--bg-primary)", fontWeight: "bold",
               textTransform: "uppercase", letterSpacing: "0.1em", fontSize: "0.85rem",
