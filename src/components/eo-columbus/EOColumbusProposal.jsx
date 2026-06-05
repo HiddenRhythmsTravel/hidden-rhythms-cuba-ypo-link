@@ -823,7 +823,10 @@ export default function EOColumbusProposal() {
                 }} className="hover-lift">
                   Begin Registration Form ➔
                 </a>
-                <span style={{ fontSize: "0.78rem", opacity: 0.5, marginTop: "8px" }}>Form takes approx. 4 minutes to complete. SECURE SSL ENCRYPTED CONNECTION.</span>
+                <span style={{ fontSize: "0.88rem", opacity: 0.95, marginTop: "8px", color: "white" }}>
+                  Please use <strong style={{ color: "var(--accent)" }}>Trip ID: Columbus27</strong> on the registration form.
+                </span>
+                <span style={{ fontSize: "0.78rem", opacity: 0.5, marginTop: "2px" }}>Form takes approx. 4 minutes to complete. SECURE SSL ENCRYPTED CONNECTION.</span>
               </div>
             </div>
           </div>
