@@ -521,9 +521,10 @@ export default function EOColumbusProposal() {
               Register Now
             </a>
             <a href="#itinerary" onClick={() => scrollToSection("program")} style={{
-              background: "transparent", border: "1px solid rgba(255,255,255,0.2)", color: "white",
+              background: "var(--accent)", color: "var(--bg-primary)", fontWeight: "bold",
               textTransform: "uppercase", letterSpacing: "0.1em", fontSize: "0.85rem",
-              padding: "0.85rem 2rem", borderRadius: "30px", textDecoration: "none"
+              padding: "0.85rem 2rem", borderRadius: "30px", textDecoration: "none",
+              boxShadow: "0 4px 15px rgba(239,156,130,0.3)"
             }} className="hover-lift">
               View Itinerary
             </a>
