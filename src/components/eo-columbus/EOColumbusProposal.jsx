@@ -280,7 +280,7 @@ const galleryItems = [
   },
   {
     type: "image",
-    src: "/assets/Speakewasy overlooking Valley.jpg",
+    src: "/assets/speakeasy_overlook.jpg",
     title: "Speakeasy Cocktail Curation",
     location: "Provenza Overlook",
     date: "January 2027"
@@ -747,71 +747,8 @@ export default function EOColumbusProposal() {
         <section id="register" className="fade-in" style={{ scrollMarginTop: "140px" }}>
           <div className="fade-in" id="register">
             
-            {/* Experience the Journey Videos */}
-            <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem", color: "var(--text-heading)" }}>
-                Experience the Journey
-              </h2>
-              <p style={{ opacity: 0.8, textAlign: "center", marginBottom: "3rem", color: "var(--text-primary)" }}>
-                Watch glimpses of the signature experiences awaiting our EO Columbus delegation.
-              </p>
-              
-              <div className="bottom-videos-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
-                {/* Helicopter Video */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "video", src: "/assets/helicopter_tour.mp4", title: "Andean Helicopter Flight", location: "El Peñol", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
-                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <img
-                      src="/assets/helicopter_tour.gif"
-                      alt="Andean Helicopter Flight"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
-                    />
-                    <div style={{
-                      position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
-                      width: "44px", height: "44px", borderRadius: "50%", background: "rgba(11, 71, 69, 0.85)",
-                      border: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center",
-                      backdropFilter: "blur(8px)", boxShadow: "0 4px 15px rgba(0,0,0,0.3)"
-                    }}>
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style={{ color: "var(--accent)", marginLeft: "2px" }}>
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Andean Helicopter Flight
-                    </span>
-                  </div>
-                </div>
-
-                {/* Montserrat Video */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "video", src: "/assets/montserrat_cable_car.mp4", title: "Monserrate Cable Car", location: "Cable Car ride in Bogota", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
-                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <img
-                      src="/assets/montserrat_cable_car.gif"
-                      alt="Monserrate Cable Car"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
-                    />
-                    <div style={{
-                      position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
-                      width: "44px", height: "44px", borderRadius: "50%", background: "rgba(11, 71, 69, 0.85)",
-                      border: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center",
-                      backdropFilter: "blur(8px)", boxShadow: "0 4px 15px rgba(0,0,0,0.3)"
-                    }}>
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style={{ color: "var(--accent)", marginLeft: "2px" }}>
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Monserrate Cable Car
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div style={{ maxWidth: "700px", margin: "0 auto", textAlign: "center", padding: "4rem 2rem", background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "24px" }}>
+            {/* Passenger Registration Portal (CTA) */}
+            <div style={{ maxWidth: "700px", margin: "0 auto", textAlign: "center", padding: "4rem 2rem", background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "24px", marginBottom: "5rem" }}>
               <span style={{ fontSize: "2.5rem" }}>✈</span>
               <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", margin: "1rem 0", color: "var(--text-heading)" }}>Passenger Registration Portal</h2>
               <p style={{ opacity: 0.85, fontSize: "1.05rem", lineHeight: "1.7", marginBottom: "2.5rem", color: "var(--text-primary)" }}>
@@ -842,6 +779,82 @@ export default function EOColumbusProposal() {
                   Please use <strong style={{ color: "var(--accent)" }}>Trip ID: Columbus27</strong> on the registration form.
                 </span>
                 <span style={{ fontSize: "0.78rem", opacity: 0.5, marginTop: "2px" }}>Form takes approx. 4 minutes to complete. SECURE SSL ENCRYPTED CONNECTION.</span>
+              </div>
+            </div>
+
+            {/* Experience the Journey Images */}
+            <div style={{ marginBottom: "4rem" }}>
+              <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem", color: "var(--text-heading)" }}>
+                Experience the Journey
+              </h2>
+              <p style={{ opacity: 0.8, textAlign: "center", marginBottom: "3rem", color: "var(--text-primary)" }}>
+                Signature experiences awaiting our EO Columbus delegation.
+              </p>
+              
+              <div className="bottom-videos-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
+                {/* Card 1: Guatape */}
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/guatape_user.jpg", title: "Guatapé Private Charter", location: "El Peñol", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
+                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
+                    <img
+                      src="/assets/guatape_user.jpg"
+                      alt="Guatapé Private Charter"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
+                      Guatapé Private Charter
+                    </span>
+                  </div>
+                </div>
+
+                {/* Card 2: Paragliding */}
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/paragliding_user.jpeg", title: "Andean Paragliding Flight", location: "San Felix", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
+                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
+                    <img
+                      src="/assets/paragliding_user.jpeg"
+                      alt="Andean Paragliding Flight"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
+                      Andean Paragliding Flight
+                    </span>
+                  </div>
+                </div>
+
+                {/* Card 3: El Cielo */}
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/el-cielo-smoke.webp", title: "El Cielo Senses Dinner", location: "El Poblado", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
+                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
+                    <img
+                      src="/assets/el-cielo-smoke.webp"
+                      alt="El Cielo Senses Dinner"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
+                      El Cielo Senses Dinner
+                    </span>
+                  </div>
+                </div>
+
+                {/* Card 4: Speakeasy */}
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/speakeasy_overlook.jpg", title: "Speakeasy Valley Overlook", location: "Provenza", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
+                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
+                    <img
+                      src="/assets/speakeasy_overlook.jpg"
+                      alt="Speakeasy Valley Overlook"
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
+                      Speakeasy Valley Overlook
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
