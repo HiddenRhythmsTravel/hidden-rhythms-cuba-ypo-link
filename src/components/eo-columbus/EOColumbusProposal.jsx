@@ -688,7 +688,7 @@ export default function EOColumbusProposal() {
             <div className="responsive-grid-2">
               {/* Hotel Click Clack */}
               <div style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden" }} className="hover-lift">
-                <div style={{ height: "300px", backgroundImage: "url('/assets/click_clack_banner.webp')", backgroundSize: "cover", backgroundPosition: "center" }} />
+                <div style={{ height: "300px", backgroundImage: "url('/assets/click_clack_user.webp')", backgroundSize: "cover", backgroundPosition: "center" }} />
                 <div style={{ padding: "2.5rem" }}>
                   <span style={{ fontSize: "0.8rem", color: "var(--accent)", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: "bold" }}>Medellín Retreat Base</span>
                   <h3 style={{ fontSize: "2rem", fontFamily: "var(--font-serif)", margin: "0.5rem 0 1rem", color: "var(--text-heading)" }}>Hotel Click Clack</h3>
@@ -703,7 +703,7 @@ export default function EOColumbusProposal() {
 
               {/* Sofitel Victoria Regia */}
               <div style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden" }} className="hover-lift">
-                <div style={{ height: "300px", backgroundImage: "url('/assets/sofitel_banner.webp')", backgroundSize: "cover", backgroundPosition: "center" }} />
+                <div style={{ height: "300px", backgroundImage: "url('/assets/sofitel_user.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
                 <div style={{ padding: "2.5rem" }}>
                   <span style={{ fontSize: "0.8rem", color: "var(--accent)", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: "bold" }}>Bogotá Extension Base</span>
                   <h3 style={{ fontSize: "2rem", fontFamily: "var(--font-serif)", margin: "0.5rem 0 1rem", color: "var(--text-heading)" }}>Sofitel Victoria Regia</h3>
@@ -742,6 +742,59 @@ export default function EOColumbusProposal() {
         {/* SECTION 6: REGISTRATION */}
         <section id="register" className="fade-in" style={{ scrollMarginTop: "140px" }}>
           <div className="fade-in" id="register">
+            
+            {/* Experience the Journey Videos */}
+            <div style={{ marginBottom: "4rem" }}>
+              <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem", color: "var(--text-heading)" }}>
+                Experience the Journey
+              </h2>
+              <p style={{ opacity: 0.8, textAlign: "center", marginBottom: "3rem", color: "var(--text-primary)" }}>
+                Watch glimpses of the signature experiences awaiting our EO Columbus delegation.
+              </p>
+              
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto" }}>
+                {/* Helicopter Video */}
+                <div style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem" }} className="hover-lift">
+                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
+                    <video
+                      src="/assets/helicopter_tour.mp4"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      controls
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
+                      Andean Helicopter Flight
+                    </span>
+                  </div>
+                </div>
+
+                {/* Montserrat Video */}
+                <div style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem" }} className="hover-lift">
+                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
+                    <video
+                      src="/assets/montserrat_cable_car.mp4"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      controls
+                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+                    />
+                  </div>
+                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
+                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
+                      Monserrate Cable Car
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div style={{ maxWidth: "700px", margin: "0 auto", textAlign: "center", padding: "4rem 2rem", background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "24px" }}>
               <span style={{ fontSize: "2.5rem" }}>✈</span>
               <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", margin: "1rem 0", color: "var(--text-heading)" }}>Passenger Registration Portal</h2>
