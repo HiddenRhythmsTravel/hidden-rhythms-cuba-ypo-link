@@ -288,7 +288,7 @@ const galleryItems = [
   {
     type: "video",
     src: "/assets/montserrat_cable_car.mp4",
-    thumbnail: "/assets/montserrat_cable_car.gif",
+    thumbnail: "/assets/montserrat_cable_car.jpg",
     title: "Montserrat",
     location: "Cable Car ride in Bogota",
     date: "January 2027"
@@ -585,10 +585,12 @@ export default function EOColumbusProposal() {
                   {item.type === "video" ? (
                     <video
                       src={item.src}
+                      poster={item.thumbnail}
                       autoPlay
                       loop
                       muted
                       playsInline
+                      preload="auto"
                       style={{
                         position: "absolute", inset: 0, width: "100%", height: "100%",
                         objectFit: "cover", transition: "transform 0.5s ease"
@@ -789,10 +791,12 @@ export default function EOColumbusProposal() {
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
                     <video
                       src="/assets/helicopter_tour.mp4"
+                      poster="/assets/helicopter.jpg"
                       autoPlay
                       loop
                       muted
                       playsInline
+                      preload="auto"
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
                     />
                   </div>
@@ -808,10 +812,12 @@ export default function EOColumbusProposal() {
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
                     <video
                       src="/assets/montserrat_cable_car.mp4"
+                      poster="/assets/montserrat_cable_car.jpg"
                       autoPlay
                       loop
                       muted
                       playsInline
+                      preload="auto"
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
                     />
                   </div>
