@@ -582,25 +582,27 @@ export default function EOColumbusProposal() {
                   }}
                   className="hover-lift"
                 >
-                  <img 
-                    src={item.type === "video" ? item.thumbnail : item.src} 
-                    alt={item.title} 
-                    style={{
-                      position: "absolute", inset: 0, width: "100%", height: "100%",
-                      objectFit: "cover", transition: "transform 0.5s ease"
-                    }}
-                  />
-                  {item.type === "video" && (
-                    <div style={{
-                      position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)",
-                      width: "50px", height: "50px", borderRadius: "50%", background: "rgba(11, 71, 69, 0.85)",
-                      border: "1px solid rgba(255,255,255,0.2)", display: "flex", alignItems: "center", justifyContent: "center",
-                      backdropFilter: "blur(8px)", boxShadow: "0 4px 15px rgba(0,0,0,0.3)", pointerEvents: "none", zIndex: 2
-                    }}>
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style={{ color: "var(--accent)", marginLeft: "2px" }}>
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    </div>
+                  {item.type === "video" ? (
+                    <video
+                      src={item.src}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                      style={{
+                        position: "absolute", inset: 0, width: "100%", height: "100%",
+                        objectFit: "cover", transition: "transform 0.5s ease"
+                      }}
+                    />
+                  ) : (
+                    <img 
+                      src={item.src} 
+                      alt={item.title} 
+                      style={{
+                        position: "absolute", inset: 0, width: "100%", height: "100%",
+                        objectFit: "cover", transition: "transform 0.5s ease"
+                      }}
+                    />
                   )}
                   <div style={{
                     position: "absolute", bottom: 0, left: 0, right: 0,
@@ -661,13 +663,7 @@ export default function EOColumbusProposal() {
                             <p style={{ opacity: 0.8, fontSize: "0.92rem", lineHeight: "1.6", margin: 0, color: "var(--text-primary)" }}>
                               {act.details}
                             </p>
-                            {act.link && (
-                              <div style={{ marginTop: "8px" }}>
-                                <a href={act.link.url} target="_blank" rel="noopener noreferrer" className="direct-link">
-                                  Official Website: {act.link.text} ↗
-                                </a>
-                              </div>
-                            )}
+
                           </div>
                         </div>
                     ))}
@@ -699,9 +695,7 @@ export default function EOColumbusProposal() {
                   <p style={{ opacity: 0.8, fontSize: "0.95rem", lineHeight: "1.7", marginBottom: "1.5rem", color: "var(--text-primary)" }}>
                     Distinguished by its acclaimed open-concept architecture and high-energy rooftop amenities, Hotel Click Clack is the definitive base of operations in Medellín. Nestled within the exclusive El Poblado district, the property acts as an ideal nexus balancing contemporary aesthetic sensibilities with local Colombian character. Proximity to Provenza ensures a seamless integration between scheduled events and nightly strolls.
                   </p>
-                  <a href="https://www.clickclackhotel.com" target="_blank" rel="noopener noreferrer" className="direct-link" style={{ fontSize: "1rem" }}>
-                    Official Website: Click Clack Medellín ↗
-                  </a>
+
                 </div>
               </div>
 
@@ -714,9 +708,7 @@ export default function EOColumbusProposal() {
                   <p style={{ opacity: 0.8, fontSize: "0.95rem", lineHeight: "1.7", marginBottom: "1.5rem", color: "var(--text-primary)" }}>
                     Designed by the renowned Colombian architect Miguel Soto, this 5-star sanctuary is a masterwork of French elegance and high-altitude Andean soul. Located inside Zona T—the prestigious cosmopolitan center of Colombian fashion, art, and Michelin-level dining—this boutique hotel provides refined marble interiors, personalized service, and absolute security for our high-level briefings.
                   </p>
-                  <a href="https://all.accor.com/hotel/1841/index.en.shtml" target="_blank" rel="noopener noreferrer" className="direct-link" style={{ fontSize: "1rem" }}>
-                    Official Website: Sofitel Victoria Regia ↗
-                  </a>
+
                 </div>
               </div>
             </div>
@@ -782,76 +774,50 @@ export default function EOColumbusProposal() {
               </div>
             </div>
 
-            {/* Experience the Journey Images */}
+            {/* Experience the Journey Videos */}
             <div style={{ marginBottom: "4rem" }}>
               <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem", color: "var(--text-heading)" }}>
                 Experience the Journey
               </h2>
               <p style={{ opacity: 0.8, textAlign: "center", marginBottom: "3rem", color: "var(--text-primary)" }}>
-                Signature experiences awaiting our EO Columbus delegation.
+                Watch glimpses of the signature experiences awaiting our EO Columbus delegation.
               </p>
               
               <div className="bottom-videos-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
-                {/* Card 1: Guatape */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/guatape_user.jpg", title: "Guatapé Private Charter", location: "El Peñol", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
+                {/* Helicopter Video */}
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox(galleryItems[3], 3)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <img
-                      src="/assets/guatape_user.jpg"
-                      alt="Guatapé Private Charter"
+                    <video
+                      src="/assets/helicopter_tour.mp4"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
                     />
                   </div>
                   <div style={{ textAlign: "center", marginTop: "1rem" }}>
                     <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Guatapé Private Charter
+                      Andean Helicopter Flight
                     </span>
                   </div>
                 </div>
 
-                {/* Card 2: Paragliding */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/paragliding_user.jpeg", title: "Andean Paragliding Flight", location: "San Felix", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
+                {/* Montserrat Video */}
+                <div className="bottom-video-card hover-lift" onClick={() => openLightbox(galleryItems[9], 9)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
                   <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <img
-                      src="/assets/paragliding_user.jpeg"
-                      alt="Andean Paragliding Flight"
+                    <video
+                      src="/assets/montserrat_cable_car.mp4"
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
                       style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
                     />
                   </div>
                   <div style={{ textAlign: "center", marginTop: "1rem" }}>
                     <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Andean Paragliding Flight
-                    </span>
-                  </div>
-                </div>
-
-                {/* Card 3: El Cielo */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/el-cielo-smoke.webp", title: "El Cielo Senses Dinner", location: "El Poblado", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
-                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <img
-                      src="/assets/el-cielo-smoke.webp"
-                      alt="El Cielo Senses Dinner"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
-                    />
-                  </div>
-                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      El Cielo Senses Dinner
-                    </span>
-                  </div>
-                </div>
-
-                {/* Card 4: Speakeasy */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox({ type: "image", src: "/assets/speakeasy_overlook.jpg", title: "Speakeasy Valley Overlook", location: "Provenza", date: "January 2027" }, 0)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
-                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <img
-                      src="/assets/speakeasy_overlook.jpg"
-                      alt="Speakeasy Valley Overlook"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
-                    />
-                  </div>
-                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Speakeasy Valley Overlook
+                      Monserrate Cable Car
                     </span>
                   </div>
                 </div>
