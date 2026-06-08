@@ -310,7 +310,7 @@ const galleryItems = [
 ];
 
 export default function EOColumbusProposal() {
-  const [activeTab, setActiveTab] = useState("gallery");
+  const [activeTab, setActiveTab] = useState("program");
   const [activeMedia, setActiveMedia] = useState(null);
 
   const openLightbox = (item, idx) => {
@@ -336,7 +336,7 @@ export default function EOColumbusProposal() {
   };
 
   useEffect(() => {
-    const sections = ["gallery", "program", "lodging", "flights", "pricing", "register"];
+    const sections = ["program", "gallery", "lodging", "flights", "pricing", "register"];
     const observerOptions = {
       root: null,
       rootMargin: "-150px 0px -40% 0px",
@@ -538,11 +538,11 @@ export default function EOColumbusProposal() {
 
       {/* Sticky Sub-Navigation */}
       <div className="sticky-subnav" style={{ top: "66px" }}>
-        <button onClick={() => scrollToSection("gallery")} className={`subnav-btn ${activeTab === "gallery" ? "active" : ""}`}>
-          Gallery
-        </button>
         <button onClick={() => scrollToSection("program")} className={`subnav-btn ${activeTab === "program" ? "active" : ""}`}>
           Itinerary
+        </button>
+        <button onClick={() => scrollToSection("gallery")} className={`subnav-btn ${activeTab === "gallery" ? "active" : ""}`}>
+          Gallery
         </button>
         <button onClick={() => scrollToSection("lodging")} className={`subnav-btn ${activeTab === "lodging" ? "active" : ""}`}>
           Lodging
@@ -559,6 +559,63 @@ export default function EOColumbusProposal() {
       </div>
 
             <main className="proposal-main" style={{ maxWidth: "1200px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "6rem" }}>
+        {/* SECTION 2: ITINERARY */}
+        <section id="program" className="fade-in" style={{ scrollMarginTop: "140px" }}>
+          <div className="fade-in">
+            <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem" }}>
+              The Curated Journey
+            </h2>
+            <p style={{ fontStyle: "italic", opacity: 0.8, textAlign: "center", marginBottom: "4rem", maxWidth: "800px", margin: "0 auto 4rem" }}>
+              Explore the detailed chronological retreat program. Alternating physical engagement, academic startup exploration, and elite cultural connections.
+            </p>
+
+            <div className="timeline-container">
+              {itineraryData.map((day, idx) => (
+                <div key={idx} className="timeline-item">
+                  <div className="timeline-marker" />
+                  <div className="timeline-content-card">
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "10px", marginBottom: "1rem" }}>
+                      <span style={{ fontSize: "0.9rem", color: "var(--accent)", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: "bold" }}>
+                        {day.day} — {day.date}
+                      </span>
+                      <span style={{ fontSize: "0.8rem", opacity: 0.6, background: "rgba(255,255,255,0.05)", padding: "0.25rem 0.75rem", borderRadius: "12px" }}>
+                        {day.meals}
+                      </span>
+                    </div>
+
+                    <h3 style={{ fontSize: "1.8rem", fontFamily: "var(--font-serif)", color: "var(--text-heading)", marginBottom: "1rem" }}>
+                      {day.title}
+                    </h3>
+                    <p style={{ opacity: 0.85, fontSize: "0.98rem", marginBottom: "2rem", lineHeight: "1.7", color: "var(--text-primary)" }}>
+                      {day.summary}
+                    </p>
+
+                    {/* Activities List */}
+                    <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "1.5rem", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+                      {day.activities.map((act, aIdx) => (
+                        <div key={aIdx} style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+                          <div style={{ minWidth: "90px", fontWeight: "bold", color: "var(--accent)", fontSize: "0.95rem" }}>
+                            {act.time}
+                          </div>
+                          <div style={{ flex: 1, minWidth: "250px" }}>
+                            <div style={{ fontWeight: "bold", color: "var(--text-heading)", fontSize: "1.05rem", marginBottom: "4px" }}>
+                              {act.activity}
+                            </div>
+                            <p style={{ opacity: 0.8, fontSize: "0.92rem", lineHeight: "1.6", margin: 0, color: "var(--text-primary)" }}>
+                              {act.details}
+                            </p>
+
+                          </div>
+                        </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
         {/* SECTION 1: GALLERY */}
         <section id="gallery" className="fade-in" style={{ scrollMarginTop: "140px" }}>
           <div className="fade-in">
@@ -619,63 +676,6 @@ export default function EOColumbusProposal() {
             </div>
           </div>
         </section>
-
-        {/* SECTION 2: ITINERARY */}
-        <section id="program" className="fade-in" style={{ scrollMarginTop: "140px" }}>
-          <div className="fade-in">
-            <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem" }}>
-              The Curated Journey
-            </h2>
-            <p style={{ fontStyle: "italic", opacity: 0.8, textAlign: "center", marginBottom: "4rem", maxWidth: "800px", margin: "0 auto 4rem" }}>
-              Explore the detailed chronological retreat program. Alternating physical engagement, academic startup exploration, and elite cultural connections.
-            </p>
-
-            <div className="timeline-container">
-              {itineraryData.map((day, idx) => (
-                <div key={idx} className="timeline-item">
-                  <div className="timeline-marker" />
-                  <div className="timeline-content-card">
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "10px", marginBottom: "1rem" }}>
-                      <span style={{ fontSize: "0.9rem", color: "var(--accent)", letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: "bold" }}>
-                        {day.day} — {day.date}
-                      </span>
-                      <span style={{ fontSize: "0.8rem", opacity: 0.6, background: "rgba(255,255,255,0.05)", padding: "0.25rem 0.75rem", borderRadius: "12px" }}>
-                        {day.meals}
-                      </span>
-                    </div>
-
-                    <h3 style={{ fontSize: "1.8rem", fontFamily: "var(--font-serif)", color: "var(--text-heading)", marginBottom: "1rem" }}>
-                      {day.title}
-                    </h3>
-                    <p style={{ opacity: 0.85, fontSize: "0.98rem", marginBottom: "2rem", lineHeight: "1.7", color: "var(--text-primary)" }}>
-                      {day.summary}
-                    </p>
-
-                    {/* Activities List */}
-                    <div style={{ borderTop: "1px solid rgba(255,255,255,0.05)", paddingTop: "1.5rem", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-                      {day.activities.map((act, aIdx) => (
-                        <div key={aIdx} style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-                          <div style={{ minWidth: "90px", fontWeight: "bold", color: "var(--accent)", fontSize: "0.95rem" }}>
-                            {act.time}
-                          </div>
-                          <div style={{ flex: 1, minWidth: "250px" }}>
-                            <div style={{ fontWeight: "bold", color: "var(--text-heading)", fontSize: "1.05rem", marginBottom: "4px" }}>
-                              {act.activity}
-                            </div>
-                            <p style={{ opacity: 0.8, fontSize: "0.92rem", lineHeight: "1.6", margin: 0, color: "var(--text-primary)" }}>
-                              {act.details}
-                            </p>
-
-                          </div>
-                        </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
         {/* SECTION 3: LODGING */}
         <section id="lodging" className="fade-in" style={{ scrollMarginTop: "140px" }}>
