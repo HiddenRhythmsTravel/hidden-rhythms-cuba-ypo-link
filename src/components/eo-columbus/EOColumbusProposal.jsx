@@ -776,59 +776,6 @@ export default function EOColumbusProposal() {
               </div>
             </div>
 
-            {/* Experience the Journey Videos */}
-            <div style={{ marginBottom: "4rem" }}>
-              <h2 style={{ fontSize: "2.5rem", fontFamily: "var(--font-serif)", textAlign: "center", marginBottom: "1rem", color: "var(--text-heading)" }}>
-                Experience the Journey
-              </h2>
-              <p style={{ opacity: 0.8, textAlign: "center", marginBottom: "3rem", color: "var(--text-primary)" }}>
-                Watch glimpses of the signature experiences awaiting our EO Columbus delegation.
-              </p>
-              
-              <div className="bottom-videos-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "2rem", maxWidth: "900px", margin: "0 auto", justifyItems: "center" }}>
-                {/* Helicopter Video */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox(galleryItems[3], 3)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
-                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <video
-                      src="/assets/helicopter_tour.mp4"
-                      poster="/assets/helicopter.jpg"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      preload="auto"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
-                    />
-                  </div>
-                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Andean Helicopter Flight
-                    </span>
-                  </div>
-                </div>
-
-                {/* Montserrat Video */}
-                <div className="bottom-video-card hover-lift" onClick={() => openLightbox(galleryItems[9], 9)} style={{ background: "var(--surface)", border: "1px solid rgba(255,255,255,0.05)", borderRadius: "16px", overflow: "hidden", padding: "1.2rem", maxWidth: "450px", margin: "0 auto", width: "100%", cursor: "pointer" }}>
-                  <div style={{ position: "relative", width: "100%", paddingTop: "56.25%", borderRadius: "8px", overflow: "hidden", background: "#0b1a19" }}>
-                    <video
-                      src="/assets/montserrat_cable_car.mp4"
-                      poster="/assets/montserrat_cable_car.jpg"
-                      autoPlay
-                      loop
-                      muted
-                      playsInline
-                      preload="auto"
-                      style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
-                    />
-                  </div>
-                  <div style={{ textAlign: "center", marginTop: "1rem" }}>
-                    <span style={{ fontSize: "0.85rem", color: "var(--accent)", letterSpacing: "0.12em", textTransform: "uppercase", fontWeight: "bold" }}>
-                      Monserrate Cable Car
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
       </main>
